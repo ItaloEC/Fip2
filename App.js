@@ -2,7 +2,7 @@ import React from 'react';
 import {Platform, StatusBar, StyleSheet, View} from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
-import Programming from './screens/ProgrammingScreen';
+import Information from './screens/InformationScreen';
 
 export default class App extends React.Component {
     state = {
@@ -11,7 +11,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <Programming/>
+            <Information/>
         );
     }
 }
