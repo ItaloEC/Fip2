@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View} from "react-native";
-import Card_programacao from '../components/Cards/Card_programacao';
+import Card_programming from '../components/Cards/Card_programming';
 import {width, height} from '../constants/Layout'
 import background from '../assets/progBackground.png';
 
@@ -40,7 +40,7 @@ export default class ProgrammingScreen extends Component {
                     <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => index.toString()}
-                    renderItem={({item}) => <Card_programacao item={item}/>}
+                    renderItem={({item}) => <Card_programming item={item}/>}
                     />
                 </View>
             </ImageBackground>
