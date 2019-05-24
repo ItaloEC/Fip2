@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
 import Information from './screens/InformationScreen';
 import Services from './screens/ServicesScreen';
+import Sponsors from './screens/SponsorsScreen'
 
 
 export default class App extends React.Component {
@@ -13,7 +14,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <Services/>
+            <Sponsors/>
         );
     }
 }
