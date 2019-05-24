@@ -2,7 +2,9 @@ import React from 'react';
 import {Platform, StatusBar, StyleSheet, View} from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
-import ChallengeScreen from './screens/ChallengeScreen';
+import Information from './screens/InformationScreen';
+import Services from './screens/ServicesScreen';
+
 
 export default class App extends React.Component {
     
@@ -20,7 +22,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <ChallengeScreen/>
+            <Services/>
         );
     }
 }
