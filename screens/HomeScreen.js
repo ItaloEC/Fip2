@@ -27,11 +27,16 @@ import noticias from '../assets/icons/taage_icon_noticias.png';
 import desafio from '../assets/icons/taage_icon_desafioserradosmatores.png';
 
 export default class HomeScreen extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
     static navigationOptions = {
         header: null,
     };
 
-    render() {
+
+    render(props) {
         return (
 
             <ImageBackground
@@ -46,7 +51,7 @@ export default class HomeScreen extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('Programming')}>
                             <Image
                                 source={programacao}
                                 style={styles.icons}
@@ -92,7 +97,7 @@ export default class HomeScreen extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('Services')}>
                             <Image
                                 source={servicos}
                                 style={styles.icons}
@@ -102,7 +107,7 @@ export default class HomeScreen extends Component {
 
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('Information')}>
                             <Image
                                 source={info}
                                 style={styles.icons}
@@ -125,7 +130,7 @@ export default class HomeScreen extends Component {
 
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('Challenge')}>
                             <Image
                                 source={desafio}
                                 style={styles.icons}

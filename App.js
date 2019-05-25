@@ -1,31 +1,43 @@
 import React from 'react';
+import { createAppContainer, createStackNavigator} from 'react-navigation';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
+import ProgrammingScreen from './screens/ProgrammingScreen';
 import MapScreen from './screens/MapScreen';
 import Information from './screens/InformationScreen';
 import Services from './screens/ServicesScreen';
 import Challenge from './screens/challengeTeste';
 import Sponsors from './screens/SponsorsScreen'
+import InformationScreen from './screens/InformationScreen';
+import ChallengeScreen from './screens/challengeTeste';
+import ServicesScreen from './screens/ServicesScreen';
 
+const AppNavigator = createStackNavigator({
+    'Main': {
+      screen: HomeScreen
+    },
+    
+    'Programming': {
+      screen: ProgrammingScreen
+    },
 
-export default class App extends React.Component {
+    'Information': {
+      screen: InformationScreen
+    },
 
-    state = {
-        isLoadingComplete: false,
-    };
+    'Challenge' : {
+        screen: ChallengeScreen
+    },
 
-    // Loading custom fonts of native base cross-platform UI components for React Native
-    async componentWillMount() {
-        await Expo.Font.loadAsync({
-            'Roboto': require('native-base/Fonts/Roboto.ttf'),
-            'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
-        });
+    'Services' : {
+        screen: ServicesScreen
     }
+});
 
-    render() {
-        return (
-            <Sponsors/>
-        );
-    }
-}
+const AppContainer = createAppContainer(AppNavigator);
+export default AppContainer;
+
+
+
+
 
