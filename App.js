@@ -5,6 +5,7 @@ import MapScreen from './screens/MapScreen';
 import Information from './screens/InformationScreen';
 import Services from './screens/ServicesScreen';
 import Challenge from './screens/challengeTeste';
+import Sponsors from './screens/SponsorsScreen'
 
 
 export default class App extends React.Component {
@@ -23,7 +24,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <Challenge />
+            <Sponsors/>
         );
     }
 }
