@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872f6ce5-e8dc-4eed-93f5-5238210c5e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/patroBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/patrocinadores/light_group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/patrocinadores/pedroSegundo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Cards/Card_sponsors_and_partners.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/SponsorsScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cards/Card_programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards/Card_programming.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ProgrammingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ProgrammingScreen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,25 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Cards/Card_sponsors_and_partners.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/ProgrammingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+            <state relative-caret-position="150">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/SponsorsScreen.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Cards/Card_programming.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="346" selection-start-line="14" selection-start-column="283" selection-end-line="14" selection-end-column="346" />
+            <state relative-caret-position="750">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +85,6 @@
         <option value="$PROJECT_DIR$/screens/teste" />
         <option value="$PROJECT_DIR$/screens/component/Card/Card.js" />
         <option value="$PROJECT_DIR$/components/Card/Card.js" />
-        <option value="$PROJECT_DIR$/screens/ProgrammingScreen.js" />
         <option value="$PROJECT_DIR$/screens/InformationScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_information.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_services.js" />
@@ -99,6 +93,8 @@
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_sponsors_and_partners.js" />
         <option value="$PROJECT_DIR$/screens/SponsorsScreen.js" />
+        <option value="$PROJECT_DIR$/screens/ProgrammingScreen.js" />
+        <option value="$PROJECT_DIR$/components/Cards/Card_programming.js" />
       </list>
     </option>
   </component>
@@ -125,11 +121,6 @@
             <path>
               <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fip2" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fip2" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -137,6 +128,11 @@
               <item name="Fip2" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fip2" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,11 +200,12 @@
       <workItem from="1558670983808" duration="1687000" />
       <workItem from="1558673431443" duration="5766000" />
       <workItem from="1558709109758" duration="10240000" />
+      <workItem from="1559187817367" duration="3799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60310000" />
+    <option name="totallyTimeSpent" value="64109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
@@ -228,7 +225,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36287627" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36287627" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,16 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ProgrammingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="42" column="49" selection-end-line="70" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/InformationScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -390,16 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_programming.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/SponsorsScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -414,6 +391,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ProgrammingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_programming.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

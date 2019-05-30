@@ -14,6 +14,7 @@ export default class Card_programming extends React.PureComponent {
                     <Text style={styles.cardText}>{this.props.item.atracao2}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao3}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao4}</Text>
+                    <Text style={styles.cardText}>{this.props.item.atracao5}</Text>
                 </View>
             </TouchableOpacity>
         );
@@ -47,14 +48,14 @@ const styles = StyleSheet.create({
     },
     cardText:{
         padding: 2,
-        fontSize: 11,
+        fontSize: 9.5,
         color: '#000',
         fontWeight: 'bold',
         marginLeft: '2%'
     },
     cardTitleText:{
         padding: 2,
-        fontSize: 15,
+        fontSize: 13,
         color: '#000',
         marginLeft: '2%',
         fontWeight: 'bold'
