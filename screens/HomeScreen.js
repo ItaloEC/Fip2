@@ -7,12 +7,14 @@ import {width, height} from '../constants/Layout'
 import background from '../assets/backgroud.png';
 import programacao from '../assets/icons/taage_icon_programacao.png';
 import mapa from '../assets/icons/taage_icon_mapa.png';
-import ondecomer from '../assets/icons/taage_icon_ondeficar.png';
-import ondeficar from '../assets/icons/taage_icon_ondecomer.png';
+import ondeficar from '../assets/icons/taage_icon_ondeficar.png';
+import ondecomer from '../assets/icons/taage_icon_ondecomer.png';
+import ondecomprar from '../assets/icons/taage_icon_ondecomprar.png';
 import servicos from '../assets/icons/taage_icon_servicos.png';
 import info from '../assets/icons/taage_icon_informacoes.png';
 import noticias from '../assets/icons/taage_icon_noticias.png';
 import desafio from '../assets/icons/taage_icon_desafioserradosmatores.png';
+import patrocinadores from'../assets/icons/taage_icon_patrocinadores.png'
 
 
 export default class HomeScreen extends Component {
@@ -89,23 +91,33 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Services')}>
-                            <Image source={servicos} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Serviços</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Information')}>
-                            <Image source={info} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Informações</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={styles.containerBotoes}>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Links")}>
                             <Image source={noticias} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Notícias</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
+                            <Image source={ondecomprar} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Onde Comprar</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.containerBotoes}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Services')}>
+                            <Image source={servicos} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Serviços</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
                             <Image source={desafio} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Desafio Serra dos Matoes</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.containerBotoes}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Sponsors")}>
+                            <Image source={patrocinadores} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Patrocinadores</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Information')}>
+                            <Image source={info} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Informações</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>
@@ -142,7 +154,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
     },
     textoBotao: {
-        fontSize: 20,
+        fontSize: 16,
         color: '#052702',
         fontWeight: 'bold',
         textAlign: 'center',

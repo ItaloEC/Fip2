@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
         height:'90%',
         marginLeft: '2%',
         marginTop: 10,
-        marginBottom: 10
+        marginBottom: 10,
+        resizeMode: 'contain'
     },
     cardText:{
         padding: 2,
