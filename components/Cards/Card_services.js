@@ -10,7 +10,6 @@ export default class Card_services extends React.PureComponent {
                 <Text style={styles.cardTitleText}>{this.props.item.cardTitle} </Text>
                 <Text style={styles.cardSubTitleText}>Endereço</Text>
                 <Text style={styles.cardText}>{this.props.item.endereco}</Text>
-                <Text style={styles.cardSubTitleText}>Telefone</Text>
                 <Text style={styles.cardText}>{this.props.item.telefone}</Text>
             </TouchableOpacity>
         );
@@ -19,7 +18,7 @@ export default class Card_services extends React.PureComponent {
 
 const styles = StyleSheet.create({
     card: {
-        height:270,
+        height:210,
         backgroundColor: '#e8e8e8',
         marginTop: 20,
         marginLeft: '2%',

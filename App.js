@@ -35,6 +35,11 @@ const AppNavigator = createStackNavigator({
     'Services' : {
         screen: ServicesScreen
     },
+
+    'Sponsors' : {
+        screen: Sponsors
+    }
+    },
     
     'WhereEat' : {
       screen: WhereEatScreen
