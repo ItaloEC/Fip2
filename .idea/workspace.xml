@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="872f6ce5-e8dc-4eed-93f5-5238210c5e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/taage_Prancheta 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/taage_icon_ondecomprar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cards/Card_programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards/Card_programming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cards/Card_services.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards/Card_services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/SponsorsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/SponsorsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ServicesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ServicesScreen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,12 +19,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/screens/SponsorsScreen.js">
+        <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="22" column="233" selection-start-line="22" selection-start-column="233" selection-end-line="22" selection-end-column="233" />
+            <state relative-caret-position="205">
+              <caret line="24" column="95" lean-forward="true" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Cards/Card_services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +86,6 @@
         <option value="$PROJECT_DIR$/components/Card/Card.js" />
         <option value="$PROJECT_DIR$/screens/InformationScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_information.js" />
-        <option value="$PROJECT_DIR$/components/Cards/Card_services.js" />
-        <option value="$PROJECT_DIR$/screens/ServicesScreen.js" />
         <option value="$PROJECT_DIR$/screens/sponsorsScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_sponsors_and_partners.js" />
         <option value="$PROJECT_DIR$/screens/ProgrammingScreen.js" />
@@ -87,6 +93,8 @@
         <option value="$PROJECT_DIR$/components/Cards/Card_programming.js" />
         <option value="$PROJECT_DIR$/screens/HomeScreen.js" />
         <option value="$PROJECT_DIR$/screens/SponsorsScreen.js" />
+        <option value="$PROJECT_DIR$/components/Cards/Card_services.js" />
+        <option value="$PROJECT_DIR$/screens/ServicesScreen.js" />
       </list>
     </option>
   </component>
@@ -198,11 +206,12 @@
       <workItem from="1559706636259" duration="3182000" />
       <workItem from="1559713553165" duration="282000" />
       <workItem from="1559714079348" duration="923000" />
+      <workItem from="1559790709986" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76874000" />
+    <option name="totallyTimeSpent" value="78560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
@@ -333,23 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-end-line="71" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/ProgrammingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -416,6 +408,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="22" column="233" selection-start-line="22" selection-start-column="233" selection-end-line="22" selection-end-column="233" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="95" lean-forward="true" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
