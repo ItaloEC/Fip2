@@ -74,7 +74,7 @@ export default class HomeScreen extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('WhereEat')}>
                             <Image
                                 source={ondecomer}
                                 style={styles.icons}
@@ -84,7 +84,7 @@ export default class HomeScreen extends Component {
 
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('WhereSleep')}>
                             <Image
                                 source={ondeficar}
                                 style={styles.icons}
@@ -120,7 +120,7 @@ export default class HomeScreen extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate('News')}>
                             <Image
                                 source={noticias}
                                 style={styles.icons}
