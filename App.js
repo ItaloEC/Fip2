@@ -8,7 +8,6 @@ import Information from './screens/InformationScreen';
 import Services from './screens/ServicesScreen';
 import Sponsors from './screens/SponsorsScreen'
 import InformationScreen from './screens/InformationScreen';
-import ChallengeScreen from './screens/ChallengeScreen';
 import ServicesScreen from './screens/ServicesScreen';
 import WhereEatScreen from './screens/WhereEatScreen';
 import WhereSleepScreen from './screens/WhereSleepScreen';
@@ -18,9 +17,11 @@ import tablado from './screens/Tablado';
 import pracajazz from './screens/PracaJazz';
 import gritador from './screens/PalcoGritador';
 import principal from './screens/PalcoPricipal'
+import ChooseChallengeScreen from "./screens/ChooseChallengeScreen";
 
 const AppNavigator = createStackNavigator({
-    'Main': {
+
+    'Main':  {
       screen: HomeScreen
     },
     
@@ -32,8 +33,8 @@ const AppNavigator = createStackNavigator({
       screen: InformationScreen
     },
 
-    'Challenge' : {
-      screen: ChallengeScreen
+    'ChooseChallenge' : {
+      screen: ChooseChallengeScreen
     },
 
     'Services' : {
@@ -74,6 +75,10 @@ const AppNavigator = createStackNavigator({
 
     'tablado' : {
         screen: tablado
+    },
+
+    'Map' : {
+        screen: MapScreen
     }
 
 });
