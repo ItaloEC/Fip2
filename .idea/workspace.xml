@@ -2,114 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872f6ce5-e8dc-4eed-93f5-5238210c5e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Map/MapaDesenho.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Map/MapaRuas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/ChooseChallengeScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/fa5-upgrade" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/fa5-upgrade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/generate-icon" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/generate-icon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.4.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/vector-icons/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/node_modules/.bin/fa5-upgrade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/node_modules/.bin/generate-icon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/vector-icons/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-code-frame/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-code-frame/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-code-frame/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-code-frame/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/color/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/color/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/execa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/execa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/invert-kv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/invert-kv/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lcid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lcid/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/strip-bom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/strip-bom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/load-json-file/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mem/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/metro/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/metro/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/metro/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/metro/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/npm-run-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm-run-path/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/os-locale/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/os-locale/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/p-finally/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-finally/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/path-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-type/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.github/ISSUE_TEMPLATE/support.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/create-icon-set-from-fontawesome5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/create-icon-set-from-fontello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/create-icon-set-from-icomoon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/create-icon-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/ensure-native-module-available.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/generate-icon-set-from-css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Free.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Free.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Free_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Free_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Pro.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Pro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Pro_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/glyphmaps/FontAwesome5Pro_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/icon-button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/react-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/react-native.osx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/tab-bar-item-ios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/toolbar-android.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/fonts.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/fonts.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Pro.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Pro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Pro_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Pro_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/antdesign.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/build-icons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/entypo.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/evilicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/feather.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/fontawesome.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/fontawesome5.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/foundation.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/ionicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/materialcommunityicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/materialicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/octicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/simplelineicons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/scripts/zocial.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/require-directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-directory/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-blocking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-blocking/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-eof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-eof/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supports-color/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supports-color/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supports-color/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/MapScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MapScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ChooseChallengeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ChooseChallengeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -121,49 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#2427#2468#0" expanded="true" />
-                <element signature="e#2895#2936#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/screens/ChooseChallengeScreen.js">
+        <entry file="file://$PROJECT_DIR$/screens/Splash2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="169" column="21" lean-forward="true" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="123" column="121" selection-start-line="123" selection-start-column="121" selection-end-line="123" selection-end-column="121" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,32 +35,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="360">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Map/MapaDesenho.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Map/MapaRuas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="261" selection-start-line="261" selection-end-line="261" />
             </state>
           </provider>
         </entry>
@@ -267,10 +109,11 @@
         <option value="$PROJECT_DIR$/components/Map/MapaDesenho.js" />
         <option value="$PROJECT_DIR$/components/Map/MapaRua.js" />
         <option value="$PROJECT_DIR$/screens/MapScreen.js" />
-        <option value="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" />
         <option value="$PROJECT_DIR$/screens/HomeScreen.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/screens/ChooseChallengeScreen.js" />
+        <option value="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/screens/Splash2.js" />
       </list>
     </option>
   </component>
@@ -292,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,18 +223,19 @@
       <workItem from="1559714079348" duration="923000" />
       <workItem from="1559790709986" duration="1686000" />
       <workItem from="1559883642249" duration="4928000" />
-      <workItem from="1559889861425" duration="6894000" />
+      <workItem from="1559889861425" duration="7180000" />
+      <workItem from="1559897681630" duration="1973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99595000" />
+    <option name="totallyTimeSpent" value="101854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19657484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19657484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -405,7 +249,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31587562" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31587562" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,21 +528,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/MapScreen">
+    <entry file="file://$PROJECT_DIR$/screens/MapScreen" />
+    <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="1605">
+          <caret line="123" column="121" selection-start-line="123" selection-start-column="121" selection-end-line="123" selection-end-column="121" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2427#2468#0" expanded="true" />
-            <element signature="e#2895#2936#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Map/MapaDesenho.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="420">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -708,15 +551,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Map/MapaRuas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="3915">
           <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/desafio_opala.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ChooseChallengeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+          <caret line="147" column="10" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2427#2468#0" expanded="true" />
@@ -725,40 +591,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="169" column="21" lean-forward="true" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="123" column="121" selection-start-line="123" selection-start-column="121" selection-end-line="123" selection-end-column="121" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/images/splash2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="360">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ChooseChallengeScreen.js">
+    <entry file="file://$PROJECT_DIR$/screens/Splash2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

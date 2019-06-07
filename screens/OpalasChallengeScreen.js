@@ -11,7 +11,7 @@ import {
 
 import { width, height } from '../constants/Layout'
 
-import background from '../assets/fundos/DESAFIO_DAS_OPALAS.png';
+import background from '../assets/images/opalas.jpg';
 
 // Desafio de matões
 export default class OpalasChallengeScreen extends Component {

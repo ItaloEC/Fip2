@@ -47,7 +47,7 @@ export default class ChooseChallenge extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Programming")}
+                            onPress={() => this.props.navigation.navigate("OpalaChallengeScreen")}
                         >
                             <Image source={opalaIcon} style={styles.icons} />
                             <Text style={styles.textoBotao}>Desafio Da Opala</Text>
@@ -56,7 +56,7 @@ export default class ChooseChallenge extends Component {
                         <TouchableOpacity
                             style={styles.botoesRole}
                             onPress={() => {
-                                this.props.navigation.navigate("Map");
+                                this.props.navigation.navigate("ChallengeScreen");
                             }}
                         >
                             <Image source={matoesIcon} style={styles.icons} />

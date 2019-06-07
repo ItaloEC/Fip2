@@ -1,11 +1,8 @@
 import React from 'react';
 import { createAppContainer, createStackNavigator} from 'react-navigation';
-import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import ProgrammingScreen from './screens/ProgrammingScreen';
 import MapScreen from './screens/MapScreen';
-import Information from './screens/InformationScreen';
-import Services from './screens/ServicesScreen';
 import Sponsors from './screens/SponsorsScreen'
 import InformationScreen from './screens/InformationScreen';
 import ServicesScreen from './screens/ServicesScreen';
@@ -18,10 +15,16 @@ import pracajazz from './screens/PracaJazz';
 import gritador from './screens/PalcoGritador';
 import principal from './screens/PalcoPricipal'
 import ChooseChallengeScreen from "./screens/ChooseChallengeScreen";
+import OpalaChallengeScreen from "./screens/OpalasChallengeScreen";
+import ChallengeScreen from "./screens/ChallengeScreen";
+import Splash2 from "./screens/Splash2";
 
 const AppNavigator = createStackNavigator({
 
     'Main':  {
+      screen: Splash2
+    },
+    'HomeScreen':  {
       screen: HomeScreen
     },
     
@@ -79,6 +82,12 @@ const AppNavigator = createStackNavigator({
 
     'Map' : {
         screen: MapScreen
+    },
+    'OpalaChallengeScreen' : {
+        screen : OpalaChallengeScreen
+    },
+    'ChallengeScreen' : {
+        screen : ChallengeScreen
     }
 
 });
