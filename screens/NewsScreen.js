@@ -26,7 +26,7 @@ export default class NewsScreen extends React.Component {
 
     componentDidMount () {
 
-        return fetch('http://192.168.1.7:8080/wp-json/wp/v2/posts')
+        return fetch('http://fip2.lightgroup.com.br/wp-json/wp/v2/posts')
             .then ( (response)     => response.json() )
             .then ( (responseJson) => {
                 this.setState({

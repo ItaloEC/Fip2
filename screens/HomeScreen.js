@@ -123,7 +123,7 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
                             <Image source={desafio} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Desafio Serra dos Matoes</Text>
+                            <Text style={styles.textoBotao}>EcoMatões</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
