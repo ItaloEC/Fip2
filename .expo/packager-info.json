@@ -1,10 +1,10 @@
 {
-  "devToolsPort": 19002,
+  "devToolsPort": 19003,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 7019,
-  "expoServerNgrokUrl": "https://cf-kmj.willianwithi.fip2.exp.direct",
-  "packagerNgrokUrl": "https://packager.cf-kmj.willianwithi.fip2.exp.direct",
-  "ngrokPid": 7152,
+  "packagerPid": 12189,
+  "expoServerNgrokUrl": "https://av-pyq.willianwithi.fip2.exp.direct",
+  "packagerNgrokUrl": "https://packager.av-pyq.willianwithi.fip2.exp.direct",
+  "ngrokPid": 12256,
   "webpackServerPort": null
 }

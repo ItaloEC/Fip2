@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     text1: {
         color:'#fff',
         fontSize: 20,
-        fontFamily: 'sans-serif',
     },
     text2: {
         color:'#fff',

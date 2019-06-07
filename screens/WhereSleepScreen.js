@@ -10,12 +10,72 @@ export default class WhereSleepScreen extends React.Component {
     super();
     this.state = {
         data: [
-            {id:1,  cardTitle: "POUSADA CASA DO CHEF",   endereco:"AV. José Lourenço Mourão, 116, Vila Operária.",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-2523 / 99402-2294 / 99840-4875"},
-            {id:2,  cardTitle: "MARZUK FLAT HOTEL",   endereco:"Av. Coronel Cordeiro, 331, Centro",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-2679/ (86) 99989-0199"},
-            {id:3,  cardTitle: "HOTEL OPALA",   endereco:"Av. José Lourenço Mourão, 813, Vila Operária.",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-1160/ 99470-9413"},
-            {id:4,  cardTitle: "HOTEL OPALA",   endereco:"Av. José Lourenço Mourão, 813, Vila Operária.",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-1160/ 99470-9413"},
-            {id:5,  cardTitle: "HOTEL OPALA",   endereco:"Av. José Lourenço Mourão, 813, Vila Operária.",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-1160/ 99470-9413"},
-            {id:6,  cardTitle: "HOTEL OPALA",   endereco:"Av. José Lourenço Mourão, 813, Vila Operária.",img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg", contato:"Fone: (86) 3271-1160/ 99470-9413"}
+          {id:1,
+            cardTitle: "POUSADA CASA DO CHEF",
+            endereco: "AV. José Lourenço Mourão, 116 – Vila Operária.",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato:"(86) 3271-2523 / 99402-2294 / 99840-4875"},
+            
+            {id:2,
+            cardTitle: "MARZUK FLAT HOTEL",
+            endereco: "Av. Coronel Cordeiro, 331 Centro",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 3271-2679/ (86) 99989-0199"},
+            
+            {id:3,
+            cardTitle: "HOTEL OPALA",
+            endereco:"Av. José Lourenço Mourão, 813 – Vila Operária",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 3271-1160/ 99470-9413",},
+            
+            {id:4,
+            cardTitle: "DRI FORNITURA",
+            endereco: "Rua Agostinho Pinheiro, 882- centro",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "Fone: 3271-1490/ 99987481. Email: drifornitura@hotmail.com",},
+            
+            {id:5,
+            cardTitle: "POUSADA RÚSTICA",
+            endereco:"Rua Pedro Ivo, 282 – Santa Fé",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 99421-4668",},
+            
+            {id:6,
+            cardTitle:"POUSADA NEBLINA",
+            endereco:"Av. Coronel Cordeiro, 325 – Centro",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato:"(86) 99954-6553 (whatsapp) / (86) 98167-7888"},
+            
+            {id:7,
+            cardTitle: "HOTEL TALISMÃ - SHOPPING MINERVINA",
+            endereco: "Av. Coronel Cordeiro, 312 – Centro",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 99831-1095",},
+            
+            {id: 8,
+            cardTitle:"ESTAÇÃO POUSADA RESIDENCE",
+            endereco:"Rua Neném Galvão, 55 ",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 99431-7681 (whatsapp)",},
+            
+            {id: 9,
+            cardTitle: "POUSADA IRMÃOS BACANA",
+            endereco: "Lajinha – Aeroporto",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 99448-3314",},
+            
+            {id: 10,
+            cardTitle: "POUSADA RIACHO",
+            endereco: "Rua Lauro Cordeiro, 246",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "(86) 99989-3164",},
+            
+            {id: 11,
+            cardTitle:"MOTEL POUSADA IMPERIAL",
+            endereco:"Povoado Santana",
+            img:"https://www3.hilton.com/resources/media/hi/NYCMLHH/en_US/img/shared/full_page_image_gallery/main/HH_juniorsuite_10_1270x560_FitToBoxSmallDimension_Center.jpg",
+            contato: "fone: (86) 99421 3000",},
+            
         ]
     }
   }
