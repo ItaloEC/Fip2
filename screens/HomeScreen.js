@@ -102,11 +102,11 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Links")}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate( 'News')}>
                             <Image source={noticias} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Notícias</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('WhereBuy')}>
                             <Image source={ondecomprar} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Onde Comprar</Text>
                         </TouchableOpacity>
@@ -114,12 +114,12 @@ export default class HomeScreen extends Component {
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate('News')}>
+                            onPress={() => this.props.navigation.navigate('Services')}>
                             <Image
-                                source={noticias}
+                                source={servicos}
                                 style={styles.icons}
                             ></Image>
-                            <Text style={styles.textoBotao}>Notícias</Text>
+                            <Text style={styles.textoBotao}>Serviços</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
                             <Image source={desafio} style={styles.icons}></Image>

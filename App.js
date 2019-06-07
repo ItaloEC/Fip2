@@ -38,7 +38,6 @@ const AppNavigator = createStackNavigator({
 
     'Sponsors' : {
         screen: Sponsors
-    }
     },
     
     'WhereEat' : {

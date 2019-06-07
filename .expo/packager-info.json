@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 11363,
-  "expoServerNgrokUrl": "https://n7-n2e.willianwithi.fip2.exp.direct",
-  "packagerNgrokUrl": "https://packager.n7-n2e.willianwithi.fip2.exp.direct",
-  "ngrokPid": 11534,
+  "packagerPid": 7019,
+  "expoServerNgrokUrl": "https://cf-kmj.willianwithi.fip2.exp.direct",
+  "packagerNgrokUrl": "https://packager.cf-kmj.willianwithi.fip2.exp.direct",
+  "ngrokPid": 7152,
   "webpackServerPort": null
 }
