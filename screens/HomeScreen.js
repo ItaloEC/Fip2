@@ -81,33 +81,49 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Links")}>
-                            <Image source={ondecomer} style={styles.icons}></Image>
+                        <TouchableOpacity
+                            style={styles.botoesRole}
+                            onPress={() => this.props.navigation.navigate('WhereEat')}>
+                            <Image
+                                source={ondecomer}
+                                style={styles.icons}
+                            ></Image>
                             <Text style={styles.textoBotao}>Onde Comer</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Links")}>
-                            <Image source={ondeficar} style={styles.icons}></Image>
+
+                        <TouchableOpacity
+                            style={styles.botoesRole}
+                            onPress={() => this.props.navigation.navigate('WhereSleep')}>
+                            <Image
+                                source={ondeficar}
+                                style={styles.icons}
+                            ></Image>
                             <Text style={styles.textoBotao}>Onde Ficar</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Links")}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate( 'News')}>
                             <Image source={noticias} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Notícias</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('WhereBuy')}>
                             <Image source={ondecomprar} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Onde Comprar</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Services')}>
-                            <Image source={servicos} style={styles.icons}></Image>
+                        <TouchableOpacity
+                            style={styles.botoesRole}
+                            onPress={() => this.props.navigation.navigate('Services')}>
+                            <Image
+                                source={servicos}
+                                style={styles.icons}
+                            ></Image>
                             <Text style={styles.textoBotao}>Serviços</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
                             <Image source={desafio} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Desafio Serra dos Matoes</Text>
+                            <Text style={styles.textoBotao}>EcoMatões</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
