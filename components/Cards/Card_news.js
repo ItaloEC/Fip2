@@ -6,13 +6,13 @@ export default class Card_news extends React.PureComponent {
 
     render() {
         return (
-            <TouchableOpacity style={styles.card}>
+            <View style={styles.card}>
                 <Image style={styles.cardImage} source={{uri: this.props.item.acf.imagem}}  />
                 <View style={styles.cardContent}>
                     <Text style={styles.cardTitleText}>{this.props.item.acf.nome} </Text>
                     <Text style={styles.cardText}>{this.props.item.acf.descricao}</Text>
                 </View>
-            </TouchableOpacity>
+            </View>
         );
     }
 }

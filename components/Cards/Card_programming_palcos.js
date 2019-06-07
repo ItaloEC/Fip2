@@ -6,7 +6,7 @@ export default class Card_programming extends React.PureComponent {
 
     render() {
         return (
-            <TouchableOpacity style={styles.card}>
+            <View style={styles.card}>
                 <View style={styles.cardContent}>
                     <Text style={styles.cardTitleText}>{this.props.item.cardTitle} </Text>
                     <Text style={styles.cardText}>{this.props.item.atracao1}</Text>
@@ -15,7 +15,7 @@ export default class Card_programming extends React.PureComponent {
                     <Text style={styles.cardText}>{this.props.item.atracao4}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao5}</Text>
                 </View>
-            </TouchableOpacity>
+            </View>
         );
     }
 }
