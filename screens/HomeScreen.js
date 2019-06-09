@@ -75,7 +75,7 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                         <TouchableOpacity
                             style={styles.botoesRole}
-                            onPress={() => this.props.navigation.navigate("Links")}>
+                            onPress={() => this.props.navigation.navigate("Map")}>
                             <Image source={mapa} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Mapa do FIP2</Text>
                         </TouchableOpacity>
@@ -121,7 +121,7 @@ export default class HomeScreen extends Component {
                             ></Image>
                             <Text style={styles.textoBotao}>Serviços</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Challenge')}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('ChooseChallenge')}>
                             <Image source={desafio} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>EcoMatões</Text>
                         </TouchableOpacity>

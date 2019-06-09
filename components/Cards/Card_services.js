@@ -5,13 +5,13 @@ export default class Card_services extends React.PureComponent {
 
     render() {
         return (
-            <TouchableOpacity style={styles.card}>
+            <View style={styles.card}>
                 <Text style={styles.cardSubTitleText}>#VocêMaisFIP2</Text>
                 <Text style={styles.cardTitleText}>{this.props.item.cardTitle} </Text>
                 <Text style={styles.cardSubTitleText}>Endereço</Text>
                 <Text style={styles.cardText}>{this.props.item.endereco}</Text>
                 <Text style={styles.cardText}>{this.props.item.telefone}</Text>
-            </TouchableOpacity>
+            </View>
         );
     }
 }
