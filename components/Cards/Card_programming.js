@@ -6,16 +6,17 @@ export default class Card_programming extends React.PureComponent {
 
     render() {
         return (
-            <TouchableOpacity style={styles.card}>
-                <Image style={styles.cardImage} source={background}/>
+            <View style={styles.card}>
+                <Image style={styles.cardImage} source={{uri: this.props.item.img}}/>
                 <View style={styles.cardContent}>
                     <Text style={styles.cardTitleText}>{this.props.item.cardTitle} </Text>
                     <Text style={styles.cardText}>{this.props.item.atracao1}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao2}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao3}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao4}</Text>
+                    <Text style={styles.cardText}>{this.props.item.atracao5}</Text>
                 </View>
-            </TouchableOpacity>
+            </View>
         );
     }
 }
@@ -43,18 +44,19 @@ const styles = StyleSheet.create({
         height:'90%',
         marginLeft: '2%',
         marginTop: 10,
-        marginBottom: 10
+        marginBottom: 10,
+        resizeMode: 'contain'
     },
     cardText:{
         padding: 2,
-        fontSize: 11,
+        fontSize: 9.5,
         color: '#000',
         fontWeight: 'bold',
         marginLeft: '2%'
     },
     cardTitleText:{
         padding: 2,
-        fontSize: 15,
+        fontSize: 12,
         color: '#000',
         marginLeft: '2%',
         fontWeight: 'bold'

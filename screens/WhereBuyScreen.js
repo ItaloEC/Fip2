@@ -1,0 +1,221 @@
+import React from 'react';
+import { View, StyleSheet, FlatList, Text, Dimensions, ImageBackground} from 'react-native';
+import Card_where_eat from '../components/Cards/Card_where_eat';
+import { width, height } from '../constants/Layout'
+import background from '../assets/whereBuyBackground.png';
+
+
+export default class WhereBuyScreen extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+        data: [
+          {id:1,
+            cardTitle: "FEIRA DE ARTESANATO DO SEBRAE",
+            endereco: "Pça Domingos Mourão Filho - Centro Histórico - FUNCIONA todos os dias do Festival de 8h as 22h.",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "",},
+            
+            {id:2,
+            cardTitle: "IMPACTO JÓIAS RIBAMAR",
+            endereco: "Rua Manoel nogueira Lima, Loja 25- Mercado do Artesão.",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: (86) 9 8857- 4912.  Email: Ribamar-arte@hotmail.com",},
+            
+            {id:3,
+            cardTitle: "ARTES PIAUÍ JÓIAS ",
+            endereco:"Rua Tertuliano Filho, N°255- Centro.  Filial: Mercado do Artesão- loja 28",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 9 9972 9465/ 99483 033.  Email: betinhodaopalap2@hotmail.com",},
+            
+            {id:4,
+            cardTitle: "DRI FORNITURA",
+            endereco: "Rua Agostinho Pinheiro, 882- centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 3271-1490/ 99987481. Email: drifornitura@hotmail.com",},
+            
+            {id:5,
+            cardTitle: "OPALA JÓIAS CORES DA TERRA",
+            endereco:"Rua Tertuliano Brandão filho, 256 centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 99419 0934/ 99520 0021. Email: opalas_joias@hotmail.com"},
+            
+            {id:6,
+            cardTitle:"JÓIAS E GEMAS",
+            endereco:"Rua Tertuliano Filho, Centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "99402 6776/3271 2770/ 9 9956 4644"},
+            
+            {id:7,
+            cardTitle: "OI.TI JÓIAS ARTESANAIS",
+            endereco: "Av. Coronel Cordeiro 580, centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 3271 2208/ 99952 0936. Email: oi.ti@uol.com.br"},
+            
+            {id: 8,
+            cardTitle:"AL & JÓIAS",
+            endereco:"Rua Agostinho Pinheiro, 388- Centro, Praça da Matriz",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 9 9465 1135/ 9 8110 9652/ 99949-2746. Email: www.aljoias.net.br",},
+            
+            {id: 9,
+            cardTitle: "DESIGN JÓIAS",
+            endereco: "Rua Domingos Mourão filho 483, Praça Matriz",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 99568 1685/ 99559 5943. ",},
+            
+            {id: 10,
+            cardTitle: "PJ –PEDRA JÓIA",
+            endereco: "Av. Coronel Cordeiro, 592, Centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "Fone: 99467 2441/99952 0276. Email: pedrajoia2ig.com.br",},
+            
+            {id: 11,
+            cardTitle:"LINO JÓIAS E CONSERTOS",
+            endereco:"Rua Domingos Mourão Filho,",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: "466- Centro",},
+            
+            {id: 12, 
+            cardTitle:"ESTILOS JÓIAS ",
+            endereco:"Rua Domingos da silva mourão, 487, Centro",
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:"Fone: 99484 9362/ 99862 2553.  Email: theresteixeira2hotmail.com",},
+            
+            {id: 13,
+            cardTitle:'P2 JÓIAS',
+            endereco:'Rua Domingos Mourão Filho, 483, Centro',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: 'Fone: 99509 1520/ 99942 4437.  ',},
+            
+            {id: 14, 
+            cardTitle:'AR´TS PEDRAS',
+            endereco:'Mercado do Artesão- Box 22',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Proprietário: Maria das Lurdes paixão. Fone : 9 81531515',},
+            
+            {id: 15,
+            cardTitle: 'HALLEY JÓIAS E RELÓGIOS',
+            endereco:  'Mercado do Artesão Box 6',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Fone: 99559 9242/99418 0260. Email: samuelcastro452hotmail.com',},
+            
+            {id: 16, 
+            cardTitle:'JÓIAS CRIARTES',
+            endereco:'Av. Jose Lourenço Mourão s/n ',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Fone: 9 9472 2875/ 9 8149 6879',},
+            
+            {id: 17,
+            cardTitle: 'ATELIÊ DE PRATA JÓIAS ARTESANAIS',
+            endereco:'Av.Jose Lourenço Mourão, 598 Centro',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: 'Fone: 9 9967 4861. Email: ourivespi@ig.com.br',},
+            
+            {id: 18,
+            cardTitle:'RARISSIMA OPALA JÓIAS',
+            endereco:'Loja 1 Mercado do Atesão Loja 2 Praça da Bonelle',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: 'Rua João Benício da Silva, 209 Fone: 99455 9998/ 99436 1149',},
+            
+            {id: 19,
+            cardTitle:'ATELIÊ JÓIA DA TERRA',
+            endereco:'Av. Jose Louremço Mourão, 871- Vila Operaria ',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Fone: 9 9964 2174/ 99402 2506. Email: ateliejoiadaterra@hotmail.com',},
+            
+            {id: 20,
+            cardTitle:'MERCADO DO ARTESÃO',
+            endereco:'Rua Manoel Nogueira Lima',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Aberto 6h ás 18h',},
+            
+            {id: 21,
+            cardTitle:'XIQUE XIQUE TECELAGEM ARTESANAL',
+            endereco:'RUA PROJETADA, 35-SANTA FÉ',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'FONE: (86) 3271-2720',},
+            
+            {id: 22,
+            cardTitle:'ASSOCIAÇÃO DOS ARTESÕES DE PEDRO II- APP',
+            endereco:'RUA AGOSTINHO PINHEIRO, 366',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: 'FONE:(86)3271-1635 (86) 99975-6049',},
+            
+            {id: 23,
+            cardTitle:'CENTRO DE ARTESANATO IRMÃS CORDEIROS -SUDARPI PII',
+            endereco:'AV. José Lourenço Mourão, 827',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'',},
+            
+            {id: 24,
+            cardTitle:'CENTRO DE FORMAÇÃO MANDACARU',
+            endereco:'RUA MOSENHOR UCHOA, 270',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato: 'FONE:(86) 3271-1473',},
+            
+            {id: 25,
+            cardTitle:'LIVRARIA CRUVIANA',
+            endereco:'Rua Corinto Andrade',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'1140 - Santa Fé Fone 86 99431 9122',},
+            
+            {id: 26,
+            cardTitle:'TOCA DAS LENDAS - ESPAÇO CULTURA',
+            endereco:'Rua Epifanio Getirana - Santa Fé',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'Fone 86 99431 9122',},
+            
+            {id: 27,
+            cardTitle:'OFICINAS DE ARTES E ARQUITETURA/J.BATISTA',
+            endereco:'RUA DES. HAMILTON MOURÃO',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'648-CENTRO FONE:(86)3271-1536',},
+            
+            {id: 28,
+            cardTitle:'OFICINA DE ARTE RAY NETO',
+            endereco:'RUA PROJETADA 58, N/45',
+            img:"https://cdn.shopify.com/s/files/1/0835/5343/files/IMG100_8906_340a68ad-8202-48b9-bf6e-20f1c828f6c9.jpg?8759349666291523616",
+            contato:'FONE: 98888-6160',}
+            
+        ]
+    }
+  }
+  /** Retira a barra toolbar superior */
+  static navigationOptions = {
+    header: null,
+  };
+
+  render() {
+    return (
+      <ImageBackground style={styles.container} source={background}>
+        <View style={styles.viewDeCima}></View>
+        <View style={styles.container}>
+          <FlatList
+            data={this.state.data}
+            renderItem={({item}) => <Card_where_eat item={item}/>}
+            horizontal={true}
+            keyExtractor={(item, index) => index.toString()}
+            ItemSeparatorComponent={() => <View style={{ margin: 4}} />}
+          />
+        </View>
+      </ImageBackground>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#5e6f45',
+    flex: 1,
+  },
+  backgroundImage: {
+    width: width,
+    height: height,
+    resizeMode: 'contain',
+  },
+  viewDeCima: {
+    // backgroundColor: '#008000',
+    height: '28%',
+  }
+});
