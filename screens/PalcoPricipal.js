@@ -39,12 +39,14 @@ export default class PalcoPricipal extends Component {
                     cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- SÁBADO 22/06/2019",
                     atracao1:"> Melin",
                     atracao2:"> Biquini Cavadão",
+		    atracao3:"> Cruviana",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2022.png'
                 },
                 {
                     id:4,
                     cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- DOMINGO 23/06/2019",
-                    atracao1:"> Paulo Ricardo",
+                    atracao1:"> Bandolins de Oeiras",
+                    atracao2:"> Paulo Ricardo",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2023.png'
                 }
             ]

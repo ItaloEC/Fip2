@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     },
 
     viewDeCima: {
-        height: 160,
+        height: "30%",
     },
     segundaView: {
         height: 40,
