@@ -24,7 +24,8 @@ export default class PalcoPricipal extends Component {
                     id:1,
                     cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- QUINTA 20/06/2019",
                     atracao1:"> Adriana Calcanhoto",
-                    atracao2:"> Tony Garrido",
+                    atracao2:"> Toni Garrido",
+                    atracao3:"> Vava Ribeiro",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2020.png'
                 },
                 {
@@ -37,7 +38,7 @@ export default class PalcoPricipal extends Component {
                     id:3,
                     cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- SÁBADO 22/06/2019",
                     atracao1:"> Melin",
-                    atracao2:"> Biquini Cavadao",
+                    atracao2:"> Biquini Cavadão",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2022.png'
                 },
                 {
@@ -83,7 +84,7 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     viewDeCima: {
-        height: 150,
+        height: '30%',
     },
     loader: {
         flex:1,

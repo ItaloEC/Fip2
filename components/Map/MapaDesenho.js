@@ -7,7 +7,7 @@ const screen = Dimensions.get("window");
 
 export default class MapaDesenho extends Component {
     render() {
-        const images = [{ url: "https://i.ibb.co/JkR0ncT/GUIA.jpg" }];
+        const images = [{ url: "http://lightgroup.com.br/luminus/assets/images/estabelecimentos/mapa_festival.jpg" }];
         return (
             <View style={styles.guia}>
                 <ImageViewer
