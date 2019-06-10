@@ -5,16 +5,16 @@ import { Notifications, Permissions } from "expo";
 
 import {width, height} from '../constants/Layout'
 import background from '../assets/backgroud.png';
-import programacao from '../assets/icons/taage_icon_programacao.png';
-import mapa from '../assets/icons/taage_icon_mapa.png';
-import ondeficar from '../assets/icons/taage_icon_ondeficar.png';
-import ondecomer from '../assets/icons/taage_icon_ondecomer.png';
-import ondecomprar from '../assets/icons/taage_icon_ondecomprar.png';
-import servicos from '../assets/icons/taage_icon_servicos.png';
-import info from '../assets/icons/taage_icon_informacoes.png';
-import noticias from '../assets/icons/taage_icon_noticias.png';
-import desafio from '../assets/icons/taage_icon_desafioserradosmatores.png';
-import patrocinadores from'../assets/icons/taage_icon_patrocinadores.png'
+import programacao from '../assets/icons/icon_programacao.png';
+import mapa from '../assets/icons/icon_mapa.png';
+import ondeficar from '../assets/icons/icon_ondeficar.png';
+import ondecomer from '../assets/icons/icon_ondecomer.png';
+import ondecomprar from '../assets/icons/icon_ondecomprar.png';
+import servicos from '../assets/icons/icon_servicos.png';
+import info from '../assets/icons/icon_informacoes.png';
+import noticias from '../assets/icons/icon_noticias.png';
+import desafio from '../assets/icons/icon_desafioserradosmatoes.png';
+import patrocinadores from'../assets/icons/icon_patrocinadores.png'
 
 
 export default class HomeScreen extends Component {
