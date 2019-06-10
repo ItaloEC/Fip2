@@ -26,22 +26,9 @@ export default class ChooseChallenge extends Component {
     render(props) {
         return (
             <ImageBackground style={styles.container} source={background}>
-                {/* <Modal isVisible={this.state.isModalVisible}>
-                <View>
-                    <Text>Escolha um mapa:</Text>
-                    <View>
-                        <TouchableOpacity  onPress={() => {this.props.navigation.navigate("FestivalMapScreen")}}>
-                            <Text>Festival</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={() => {this.props.navigation.navigate("MapScreen")}}>
-                            <Text>Ruas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-            </Modal> */}
-
+                
                 <View style={styles.viewDeCima} />
-                {/* <View style={styles.segundaView} /> */}
+            
 
                 <ScrollView style={styles.container}>
                     <View style={styles.containerBotoes}>
@@ -50,7 +37,7 @@ export default class ChooseChallenge extends Component {
                             onPress={() => this.props.navigation.navigate("OpalaChallengeScreen")}
                         >
                             <Image source={opalaIcon} style={styles.icons} />
-                            <Text style={styles.textoBotao}>Desafio Da Opala</Text>
+                            <Text style={styles.textoBotao}>Desafio Das Opalas</Text>
                         </TouchableOpacity>
 
                         <TouchableOpacity
@@ -80,13 +67,9 @@ const styles = StyleSheet.create({
         resizeMode: "contain"
     },
     viewDeCima: {
-        // backgroundColor: '#008000',
         height: "30%"
     },
-//   segundaView: {
-//     // backgroundColor: '#ffff00',
-//     height: 130
-//   },
+
 
     textoBotao: {
         fontSize: 20,
@@ -106,14 +89,14 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         padding: 10,
         width: width,
-        height: 250,
+        height: 200,
         alignItems: "center",
         borderRadius: 10,
         justifyContent: "space-around"
     },
     icons: {
-        width: 200,
-        height: 200,
+        width: 120,
+        height: 120,
         resizeMode: "contain"
     }
 });

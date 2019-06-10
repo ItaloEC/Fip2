@@ -22,8 +22,9 @@ export default class ServicesScreen extends Component {
                 {id:9,  cardTitle: "OFICINA MECÂNICA - ZE CLAUDIO",   endereco:"Rua Tertuliano Brandão Filho, Centro", telefone:"(86) 99983 3028"},
                 {id:10,  cardTitle: "BORRACHARIA DO MEDEIROS",   endereco:"Rua Irmãos Pereira, Centro", telefone:"(86) 99462 8683"},
                 {id:11,  cardTitle: "Delegacia de Policia",   endereco:"R. Lauro Cordeiro, 100", telefone:"(86) 3271 2575"},
-                {id:12,  cardTitle: "2ª Companhia do \n12º Batalhão da Polícia Militar do Piauí",   endereco:"Rua Benedito de Castro nº 692 – Boa Esperança", telefone:""},
-                {id:13,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""}
+                {id:12,  cardTitle: "2ª Companhia do 12º Batalhão da Polícia Militar do Piauí",   endereco:"Rua Benedito de Castro nº 692 – Boa Esperança", telefone:"Tel."},
+                {id:13,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""},
+                {id:14,  cardTitle: "ACONTUR Pedro II",endereco:"Terminal Rodoviário Box 09. (Informações Turisticas) Setor de embarque e desembarque", telefone:"Tel. 86 9 9418 0785 claro e WhatsApp. 86 9 9992 2791 Tim."}
             ]
         }
     }
@@ -77,7 +78,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     flatList:{
-        backgroundColor: '#607145'
+        backgroundColor: '#607145',
+        paddingBottom: 10,
     }
 
 });
