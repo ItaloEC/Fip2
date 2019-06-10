@@ -9,10 +9,10 @@ import {
 } from "react-native";
 import {width, height} from '../constants/Layout'
 import background from '../assets/progBackground.png';
-import guitar from '../assets/icons/guitar.png';
-import microphone from'../assets/icons/microphone.png';
-import note from '../assets/icons/note.png';
-import saxofone from '../assets/icons/saxophone.png'
+import icon_palcoopala from '../assets/icons/icon_palcoopala.png';
+import icon_palcobluess from'../assets/icons/icon_palcobluess.png';
+import icon_palcotablado from '../assets/icons/icon_palcotablado.png';
+import icon_palcojazz from '../assets/icons/icon_palcojazz.png'
 
 
 export default class ProgrammingScreen extends Component {
@@ -34,25 +34,25 @@ export default class ProgrammingScreen extends Component {
                 <View style={styles.containerBotoes}>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("principal")}>
-                            <Image source={guitar} style={styles.icons}></Image>
+                            <Image source={icon_palcoopala} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Palco da Opala</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("gritador")}>
-                            <Image source={microphone} style={styles.icons}></Image>
+                            <Image source={icon_palcobluess} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Palco Blues</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("pracajazz")}>
-                            <Image source={saxofone} style={styles.icons}></Image>
+                            <Image source={icon_palcojazz} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Palco do Jazz</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("tablado")}>
-                            <Image source={note} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Tablado</Text>
+                            <Image source={icon_palcotablado} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Palco do Tablado</Text>
                         </TouchableOpacity>
                      </View>
             </ImageBackground>
@@ -83,6 +83,12 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         flex: 6,
 
+    },
+    textoBotao: {
+        fontSize: 16,
+        color: '#052702',
+        fontWeight: 'bold',
+        textAlign: 'center',
     },
     botoesRole: {
         flexDirection: 'column',

@@ -25,27 +25,7 @@ export default class HomeScreen extends Component {
         origin: null
     };
 
-    askPermissions = async () => {
-        const { status: existingStatus } = await Permissions.getAsync(
-            Permissions.NOTIFICATIONS
-        );
-        let finalStatus = existingStatus;
-        if (existingStatus !== "granted") {
-            const { status } = await Permissions.askAsync(Permissions.NOTIFICATIONS);
-            finalStatus = status;
-        }
-        if (finalStatus !== "granted") {
-            return false;
-        }
-        return true;
-    };
-
-    sendNotificationImmediately = async () => {
-        let notificationId = await Notifications.presentLocalNotificationAsync({
-            title: "Teste de Notificação",
-            body: "Bem vindo ao FIP2"
-        });
-    };
+    
 
     constructor(props) {
         super(props);
@@ -57,8 +37,6 @@ export default class HomeScreen extends Component {
 
 
     render(props) {
-    this.askPermissions();
-    this.sendNotificationImmediately();
         return (
 
             <ImageBackground style={styles.container} source={background}>
