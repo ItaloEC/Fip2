@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     },
     viewDeCima: {
         // backgroundColor: '#008000',
-        height: '28%',
+        height: '30%',
     },
     loader: {
         flex:1,

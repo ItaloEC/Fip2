@@ -131,11 +131,7 @@ const styles = StyleSheet.create({
     },
     viewDeCima: {
         // backgroundColor: '#008000',
-        height: 150,
-    },
-    segundaView: {
-        // backgroundColor: '#ffff00',
-        height: 130,
+        height: '45%',
     },
     botoesRole: {
         flexDirection: 'column',
