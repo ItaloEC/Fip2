@@ -19,10 +19,10 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.light.fip2"
+      "bundleIdentifier": "com.light.fipii"
     },
     "android": {
-      "package": "com.light.fipii"
+      "package": "com.light.fip2"
     }
   },
   "description": ""
