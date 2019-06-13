@@ -10,10 +10,14 @@ import {
 } from 'react-native';
 //import Card from '../components/Cards/Card_sponsors_and_partners';
 import {width, height} from '../constants/Layout';
-import background from '../assets/patroBackground.png';
+import background from '../assets/noticias.jpg';
 import Card from '../components/Cards/Card_news';
 
 export default class NewsScreen extends React.Component {
+
+    static navigationOptions = {
+        header: null,
+    };
 
     constructor(props) {
         super(props);
@@ -81,7 +85,7 @@ const styles = StyleSheet.create({
     },
     viewDeCima: {
         // backgroundColor: '#008000',
-        height: 150,
+        height: '30%',
     },
     loader: {
         flex:1,

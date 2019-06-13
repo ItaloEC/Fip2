@@ -1,12 +1,11 @@
 import React, {Component} from "react";
-import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View} from "react-native";
+import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View,Button, Linking} from "react-native";
 import Card from '../components/Cards/Card_challenge';
 import {width, height} from '../constants/Layout'
 import background from '../assets/background_challenges.png';
 
 
 export default class ChallengeScreen extends Component {
-
     constructor(){
         super();
         this.state = {
@@ -31,6 +30,7 @@ export default class ChallengeScreen extends Component {
             );
         }
         return (
+          
             <ImageBackground style={styles.container} source={background}>
                 <View style={styles.viewDeCima}></View>
                 <View style={styles.container}>
@@ -40,6 +40,12 @@ export default class ChallengeScreen extends Component {
                         keyExtractor={(item, index) => index.toString()}
                         renderItem={({item}) => <Card item={item}/>}
                     />
+                    <Button
+                    onPress={()=> Linking.openURL('https://www.festivalpedro2.com.br/desafio-dos-matoes/')}
+                    title="Saiba Mais"
+                    color="#42593a"
+                    />
+
                 </View>
             </ImageBackground>
         );

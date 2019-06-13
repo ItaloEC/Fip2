@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, Image, TouchableOpacity, View } from "react-native";
+import window from '../../constants/Layout';
 
 
 export default class Card_news extends React.PureComponent {
@@ -24,10 +25,10 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'stretch',
-      height: 'auto',
+    //   height: 400,
+      width: window.window.width - 5,
       backgroundColor: '#ffffff',
       marginTop: 10,
-      marginLeft: '2%',
 //width:'96%',
 //height: 320,
       borderRadius:5,
@@ -41,11 +42,13 @@ const styles = StyleSheet.create({
       elevation: 2
   },
   cardImage:{
-      width: '96%',
-      height:'42%',
+      width: window.window.width - 20,
+      height: 300,
       marginLeft: '2%',
       marginTop: 10,
-      marginBottom: 10
+      marginBottom: 10,
+      resizeMode: 'contain',
+      borderRadius: 10
   },
   cardTextHashtag:{
       padding: 2,
@@ -58,15 +61,16 @@ const styles = StyleSheet.create({
       padding: 2,
       fontSize: 12,
       color: '#000',
-      marginLeft: '2%',
       alignSelf: 'flex-start',
+      textAlign: 'auto'
   },
   cardTitleText:{
       padding: 3,
       fontSize: 20,
       color: '#000',
       marginLeft: '2%',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      textAlign: 'center'
   },
   cardContent: {
       marginLeft:10,

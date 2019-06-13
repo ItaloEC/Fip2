@@ -5,16 +5,16 @@ import { Notifications, Permissions } from "expo";
 
 import {width, height} from '../constants/Layout'
 import background from '../assets/backgroud.png';
-import programacao from '../assets/icons/taage_icon_programacao.png';
-import mapa from '../assets/icons/taage_icon_mapa.png';
-import ondeficar from '../assets/icons/taage_icon_ondeficar.png';
-import ondecomer from '../assets/icons/taage_icon_ondecomer.png';
-import ondecomprar from '../assets/icons/taage_icon_ondecomprar.png';
-import servicos from '../assets/icons/taage_icon_servicos.png';
-import info from '../assets/icons/taage_icon_informacoes.png';
-import noticias from '../assets/icons/taage_icon_noticias.png';
-import desafio from '../assets/icons/taage_icon_desafioserradosmatores.png';
-import patrocinadores from'../assets/icons/taage_icon_patrocinadores.png'
+import programacao from '../assets/icons/icon_programacao.png';
+import mapa from '../assets/icons/icon_mapa.png';
+import ondeficar from '../assets/icons/icon_ondeficar.png';
+import ondecomer from '../assets/icons/icon_ondecomer.png';
+import ondecomprar from '../assets/icons/icon_ondecomprar.png';
+import servicos from '../assets/icons/icon_servicos.png';
+import info from '../assets/icons/icon_informacoes.png';
+import noticias from '../assets/icons/icon_noticias.png';
+import ecomatoes from '../assets/icons/icon_ecomatoes.png';
+import patrocinadores from'../assets/icons/icon_patrocinadores.png'
 
 
 export default class HomeScreen extends Component {
@@ -25,27 +25,7 @@ export default class HomeScreen extends Component {
         origin: null
     };
 
-    askPermissions = async () => {
-        const { status: existingStatus } = await Permissions.getAsync(
-            Permissions.NOTIFICATIONS
-        );
-        let finalStatus = existingStatus;
-        if (existingStatus !== "granted") {
-            const { status } = await Permissions.askAsync(Permissions.NOTIFICATIONS);
-            finalStatus = status;
-        }
-        if (finalStatus !== "granted") {
-            return false;
-        }
-        return true;
-    };
-
-    sendNotificationImmediately = async () => {
-        let notificationId = await Notifications.presentLocalNotificationAsync({
-            title: "Teste de Notificação",
-            body: "Bem vindo ao FIP2"
-        });
-    };
+    
 
     constructor(props) {
         super(props);
@@ -57,8 +37,6 @@ export default class HomeScreen extends Component {
 
 
     render(props) {
-    this.askPermissions();
-    this.sendNotificationImmediately();
         return (
 
             <ImageBackground style={styles.container} source={background}>
@@ -122,7 +100,7 @@ export default class HomeScreen extends Component {
                             <Text style={styles.textoBotao}>Serviços</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('ChooseChallenge')}>
-                            <Image source={desafio} style={styles.icons}></Image>
+                            <Image source={ecomatoes} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>EcoMatões</Text>
                         </TouchableOpacity>
                     </View>
@@ -153,11 +131,7 @@ const styles = StyleSheet.create({
     },
     viewDeCima: {
         // backgroundColor: '#008000',
-        height: 150,
-    },
-    segundaView: {
-        // backgroundColor: '#ffff00',
-        height: 130,
+        height: '45%',
     },
     botoesRole: {
         flexDirection: 'column',

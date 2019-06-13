@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 8126,
-  "expoServerNgrokUrl": "https://cf-kmj.anonymous.fip2.exp.direct",
-  "packagerNgrokUrl": "https://packager.cf-kmj.anonymous.fip2.exp.direct",
-  "ngrokPid": 8173
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }

@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     viewDeCima: {
-        height: 150,
+        height: "30%",
     },
     loader: {
         flex:1,
