@@ -1,5 +1,6 @@
 import React from "react";
 import {StyleSheet, Text, Image, TouchableOpacity, View, FlatList} from "react-native";
+import window from "../../constants/Layout";
 
 export default class Card_programacao extends React.PureComponent {
 
@@ -19,11 +20,14 @@ export default class Card_programacao extends React.PureComponent {
 
 const styles = StyleSheet.create({
     card: {
-        height:550,
+
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'stretch',
+        width: window.window.width - 5,
         backgroundColor: '#ffffff',
         marginTop: 10,
-        marginLeft: '2%',
-        width:'96%',
         borderRadius:5,
         shadowColor: '#000',
         shadowOpacity: 0.2,
@@ -35,10 +39,12 @@ const styles = StyleSheet.create({
         elevation: 2
     },
     cardImage:{
-        width: '96%',
-        height: '25%',
+        width: window.window.width - 20,
+        height: 200,
         marginLeft: '2%',
-        marginTop: '5%',
+        marginTop: 10,
+        marginBottom: 10,
+        resizeMode: 'contain'
     },
     cardTextHashtag:{
         padding: 2,
@@ -51,17 +57,20 @@ const styles = StyleSheet.create({
         padding: 2,
         fontSize: 12,
         color: '#000',
-        marginLeft: '2%'
+        alignSelf: 'flex-start',
+        textAlign: 'auto',
+        marginBottom: 10
     },
     cardTitleText:{
         padding: 3,
         fontSize: 20,
-        color: '#42593a',
+        color: '#000',
         marginLeft: '2%',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        textAlign: 'center'
     },
     cardContent: {
         marginLeft:10,
-        marginTop:10
+        marginTop:10,
     },
 });
