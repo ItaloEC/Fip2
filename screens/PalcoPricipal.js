@@ -22,31 +22,37 @@ export default class PalcoPricipal extends Component {
             data: [
                 {
                     id:1,
-                    cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- QUINTA 20/06/2019",
-                    atracao1:"> Adriana Calcanhoto",
-                    atracao2:"> Toni Garrido",
-                    atracao3:"> Vava Ribeiro",
+                    cardTitle: "PALCO OPALA \nQUINTA 20/06/2019",
+                    subtitle: "Praça Manoel Nogueira Lima\n(BONELLE)",
+                    atracao1:"> 21h  Vava Ribeiro",
+                    atracao2:"> 23h Adriana Calcanhoto ",
+                    atracao3:"> 01h Toni Garrido ",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2020.png'
                 },
                 {
                     id:2,
-                    cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- SEXTA 21/06/2019",
-                    atracao1:"> Zeca Baleiro",
+                    cardTitle: "PALCO OPALA \nSEXTA 21/06/2019",
+                    subtitle: "Praça Manoel Nogueira Lima\n(BONELLE)",
+                    atracao1:"> 21h Retrô",
+                    atracao2:"> 23h Zeca Baleiro",
+                    atracao3:"> 01h Roraima",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2021.png'
                 },
                 {
                     id:3,
-                    cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- SÁBADO 22/06/2019",
-                    atracao1:"> Melin",
-                    atracao2:"> Biquini Cavadão",
-		    atracao3:"> Cruviana",
+                    cardTitle: "PALCO OPALA \nSÁBADO 22/06/2019",
+                    subtitle: "Praça Manoel Nogueira Lima\n(BONELLE)",
+                    atracao1:"> 21h Melin",
+                    atracao2:"> 23h Biquini Cavadão",
+		            atracao3:"> 01h Cruviana",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2022.png'
                 },
                 {
                     id:4,
-                    cardTitle: "PALCO DA OPALA \n Praça da Bonelle\n- DOMINGO 23/06/2019",
-                    atracao1:"> Bandolins de Oeiras",
-                    atracao2:"> Paulo Ricardo",
+                    cardTitle: "PALCO OPALA \nDOMINGO 23/06/2019",
+                    subtitle: "Praça Manoel Nogueira Lima\n(BONELLE)",
+                    atracao1:"> 20h Bandolins de Bandolins de Oeiras",
+                    atracao2:"> 22h Paulo Ricardo",
                     img:'http://lightgroup.com.br/luminus/assets/images/bandas/Dia%2023.png'
                 }
             ]

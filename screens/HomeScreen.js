@@ -11,7 +11,7 @@ import ondeficar from '../assets/icons/icon_ondeficar.png';
 import ondecomer from '../assets/icons/icon_ondecomer.png';
 import ondecomprar from '../assets/icons/icon_ondecomprar.png';
 import servicos from '../assets/icons/icon_servicos.png';
-import info from '../assets/icons/icon_informacoes.png';
+import turismo from '../assets/icons/icon_turismo.png';
 import noticias from '../assets/icons/icon_noticias.png';
 import ecomatoes from '../assets/icons/icon_ecomatoes.png';
 import patrocinadores from'../assets/icons/icon_patrocinadores.png'
@@ -110,8 +110,8 @@ export default class HomeScreen extends Component {
                             <Text style={styles.textoBotao}>Patrocinadores</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate('Information')}>
-                            <Image source={info} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Informações</Text>
+                            <Image source={turismo} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Turismo</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>

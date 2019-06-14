@@ -10,6 +10,7 @@ export default class Card_programming extends React.PureComponent {
                 <Image style={styles.cardImage} source={{uri: this.props.item.img}}/>
                 <View style={styles.cardContent}>
                     <Text style={styles.cardTitleText}>{this.props.item.cardTitle} </Text>
+                    <Text style={styles.subtitle}>{this.props.item.subtitle} </Text>
                     <Text style={styles.cardText}>{this.props.item.atracao1}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao2}</Text>
                     <Text style={styles.cardText}>{this.props.item.atracao3}</Text>
@@ -65,4 +66,11 @@ const styles = StyleSheet.create({
         marginLeft:10,
         marginTop:10
     },
+    subtitle: {
+        padding: 2,
+        fontSize: 10,
+        color: '#000',
+        marginLeft: '2%',
+        fontWeight: 'bold'
+    }
 });

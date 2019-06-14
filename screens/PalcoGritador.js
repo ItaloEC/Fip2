@@ -22,28 +22,31 @@ export default class PalcoGritador extends Component {
             data: [{
                 id:1,
                 cardTitle: "Palco Gritador - QUINTA 20/06/2019",
+                subtitle: "Praça Domingos Mourão Filho (Matriz)",
                 atracao1:"> 19h00 - Janela Lateral",
                 atracao2:"> 20h00 - Deepmoon",
                 atracao3:"> 21h00 - Leone Rodrigues",
                 atracao4:"> 22h00 - Deepmoon",
-                atracao5:"> 23:00 - Radiola Elétrica"
+                atracao5:"> 23h00 - Radiola Elétrica"
             },
                 {
                     id:2,
                     cardTitle: "Palco Gritador - SEXTA 21/06/2019",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> 18h30 - Jonas Memória",
                     atracao2:"> 19h30 - Demodê",
                     atracao3:"> 20h30 - Caju Pinga Fogo",
-                    atracao4:"> 21:30 - Danilo Ruddah",
+                    atracao4:"> 21h30 - Danilo Ruddah",
                     atracao5:"> 22h30 - Fullreaggae"
                 },
                 {
                     id:3,
                     cardTitle: "Palco Gritador - SÁBADO 22/06/2019",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> 18h30 - Bluedozze",
                     atracao2:"> 20h00 - Fronteiras  Blues",
                     atracao3:"> 21h30 - Bulldog Jack",
-                    atracao4:"> 22:30 - Neardentais"
+                    atracao4:"> 22h30 - Neardentais"
                 }]
 
         }
