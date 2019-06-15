@@ -11,7 +11,7 @@ export default class ServicesScreen extends Component {
         super();
         this.state = {
             data: [
-                {id:1,  cardTitle: "BANCO DO BRASIL",   endereco:" Av. Coronel Cordeiro, Centro", telefone:""},
+                {id:1,  cardTitle: "BANCO DO BRASIL",   endereco:"Av. Coronel Cordeiro, Centro", telefone:""},
                 {id:2,  cardTitle: "BRADESCO",   endereco:"Av. Coronel Cordeiro, Centro", telefone:""},
                 {id:3,  cardTitle: "CAIXA ECONOMICA FEDERAL",   endereco:"Rua Domingos Mourão, Centro", telefone:""},
                 {id:4,  cardTitle: "BANCO OPALA",   endereco:"Mercado do Artesão", telefone:""},
@@ -21,11 +21,12 @@ export default class ServicesScreen extends Component {
                 {id:8,  cardTitle: "FARMAFRAN 24 HORAS",   endereco:"Av Cordeiro, 476 - Centro", telefone:"3271-2375 / (86) 9 9443-0435"},
                 {id:9,  cardTitle: "OFICINA MECÂNICA - ZE CLAUDIO",   endereco:"Rua Tertuliano Brandão Filho, Centro", telefone:"(86) 99983 3028"},
                 {id:10,  cardTitle: "BORRACHARIA DO MEDEIROS",   endereco:"Rua Irmãos Pereira, Centro", telefone:"(86) 99462 8683"},
-                {id:11,  cardTitle: "Delegacia de Policia",   endereco:"R. Lauro Cordeiro, 100", telefone:"(86) 3271 2575"},
-                {id:12,  cardTitle: "2ª Companhia do 12º Batalhão da Polícia Militar do Piauí",   endereco:"Rua Benedito de Castro nº 692 – Boa Esperança", telefone:"Tel."},
-                {id:13,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""},
-                {id:14,  cardTitle: "ACONTUR Pedro II",endereco:"Terminal Rodoviário Box 09. (Informações Turisticas) Setor de embarque e desembarque", telefone:"Tel. 86 9 9418 0785 claro e WhatsApp. 86 9 9992 2791 Tim."}
+                {id:11,  cardTitle: "Delegacia de Polícia",   endereco:"Av. José Lourenço Mourão, 100", telefone:"(86) 3271 2575"},
+                {id:12,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""},
+                {id:13,  cardTitle: "ACONTUR - Associação de Guias de Turismo e Condutores de Visitantes de Pedro II.",endereco:"Localizado na Praça da Feira do Artesanato - Centro Histórico. ", telefone:"Tel: (86) 99418 0785  99992 2791"},
+                {id:14,  cardTitle: "CHAVEIRO NUNES", endereco:"MERCADO DO ARTESÃO, BOX 36, PEDRO II - PI", telefone:"86 99539-0075 86 98181-8241\n chaveironunes10@gmail.com"}
             ]
+
         }
     }
 
