@@ -1,6 +1,5 @@
 import React from "react";
 import { StyleSheet, Text, Image, TouchableOpacity, View } from "react-native";
-import background from '../../assets/ze.png';
 
 export default class Card_programming extends React.PureComponent {
 

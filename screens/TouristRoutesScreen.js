@@ -2,10 +2,10 @@ import React, {Component} from "react";
 import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View} from "react-native";
 import Card_programacao from '../components/Cards/Card_information';
 import {width, height} from '../constants/Layout'
-import background from '../assets/InfoBackground.png';
+import background from '../assets/rotasturisticas.png';
 
 
-export default class InformationScreen extends Component {
+export default class TouristRoutesScreen extends Component {
 
     constructor(){
         super();
@@ -135,8 +135,7 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     viewDeCima: {
-        // backgroundColor: '#008000',
-        height: '28%',
+        height: '33%',
     },
     loader: {
         flex:1,
