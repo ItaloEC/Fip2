@@ -23,6 +23,7 @@ export default class Tablado extends Component {
                 {
                     id:1,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - QUINTA 20/06/2019 \n- TARDE",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> Raissa Braga (voz e  violão)",
                     atracao2:"> JP dos Teclados",
                     atracao3:"> Ronie dos Santos (youtuber, dançarino, humorista)",
@@ -31,6 +32,7 @@ export default class Tablado extends Component {
                 {
                     id:2,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - SEXTA 21/06/2019 \n- MANHÃ",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> Grupo de dança “Let´s Dance”",
                     atracao2:"> Aristides Benício (voz e violão)",
                     atracao3:"> Escola de música  “Alfa Violão”",
@@ -38,6 +40,7 @@ export default class Tablado extends Component {
                 {
                     id:3,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - SEXTA 21/06/2019 \n- TARDE",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> Raimundo Carneiro  (Acordeón)",
                     atracao2:"> Banda Encantos  \n(Comunidade Católica Shalom)",
                     atracao3:"> Academia de Ballet \n“Viva Feliz” – Prof Layla Thuany"
@@ -45,6 +48,7 @@ export default class Tablado extends Component {
                 {
                     id:4,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - SÁBADO 22/06/2019 \n- MANHÃ",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> James Brito – cantor",
                     atracao2:"> Ballet Arte da Dança",
                     atracao3:"> Grupo musical “Soarte música”"
@@ -52,13 +56,16 @@ export default class Tablado extends Component {
                 {
                     id:5,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - SÁBADO 22/06/2019 \n- TARDE",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> Os Blacks – \nGrupo Musical de Chorinho",
                     atracao2:"> Zilda Pereira \n(coreografa e dançarina)",
-                    atracao3:"> Grupo musical “Calango Joy”"
+                    atracao3:"> Orquestra Sanfônica Dom Abel Alonso Nunes",
+                    atracao4:"> Grupo musical “Calango Joy”"
                 },
                 {
                     id:6,
                     cardTitle: "TABLADO - CARLOS CORDEIRO - DOMINGO 23/06/2019 \n- MANHÃ",
+                    subtitle: "Praça Domingos Mourão Filho (Matriz)",
                     atracao1:"> Baby do Forró"
                 }
             ]

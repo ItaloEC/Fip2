@@ -4,7 +4,7 @@ import HomeScreen from './screens/HomeScreen';
 import ProgrammingScreen from './screens/ProgrammingScreen';
 import MapScreen from './screens/MapScreen';
 import Sponsors from './screens/SponsorsScreen'
-import InformationScreen from './screens/InformationScreen';
+import TouristRoutesScreen from './screens/TouristRoutesScreen';
 import ServicesScreen from './screens/ServicesScreen';
 import WhereEatScreen from './screens/WhereEatScreen';
 import WhereSleepScreen from './screens/WhereSleepScreen';
@@ -32,8 +32,8 @@ const AppNavigator = createStackNavigator({
       screen: ProgrammingScreen
     },
 
-    'Information': {
-      screen: InformationScreen
+    'TouristRoutes': {
+      screen: TouristRoutesScreen
     },
 
     'ChooseChallenge' : {
