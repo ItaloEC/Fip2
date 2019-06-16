@@ -13,7 +13,7 @@ export default class WhereEatScreen extends React.Component {
 
             {id:5,  cardTitle: "RESTAURANTE MEU BOTECO",   endereco:"R. Projetada, 10, 41, Pedro II - PI, 64255-000",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/meu_boteco.jpeg", contato:"Fone: (86) 99514-8158"},
              
-            {id:5,  cardTitle: "PIZZARIA BOM SABOR",   endereco:"Rua landre Sales 186 –  Boa esperança",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/bom_sabor.jpeg", contato:"Fone: 9  94520552"},
+            {id:5,  cardTitle: "PIZZARIA BOM SABOR",   endereco:"Rua landre Sales 186 –  Boa esperança",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/bom_sabor.jpeg", contato:"Fone: 9  94520551"},
 
             {id:47,  cardTitle: "Hamburgueria e Petiscaria Recanto do Sabor", endereco:"Comunidade Serra dos Matões - 12km", img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/recantodosabor.jpeg", 
             contato:"Fone: (86) 98824 1244 (whatsapp)"},
@@ -22,9 +22,11 @@ export default class WhereEatScreen extends React.Component {
 
             {id:22,  cardTitle: "BARBARELLA", endereco:"Rua Corinto Andrade, Centro.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/barbarela.jpeg", contato:"Fone: (86) 9 9515 7696"},
 
+            {id:36,  cardTitle: "RANCHO DO DINO", endereco:"Comunidade Caranguejo – Serra dos Matões.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/rancho_dino.png", contato:"Fone: (86) 9 9900 9825 / 9 8133-8623"},
+
             {id:23,  cardTitle: "BAR LÁ KONDÊ E PIZZARIA", endereco:"Rua Corinto Andrade - Centro",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/laconde.jpeg", contato:"Fone: (86) 9 9956-6928"},
 
-            {id:26,  cardTitle: "BECO DA PICANHA", endereco:"Rua Travessa João Mendes, 226 – Centro",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/becodapicanha.jpeg", contato:"Fone: (86) 9 9816 4487"},
+            {id:26,  cardTitle: "BECO DA PICANHA", endereco:"Rua Travessa João Mendes, 226 – Centro",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/becodapicanha.jpeg", contato:"Fone: (86) 9 9816 4487/ 99551-1130"},
 
             {id:28,  cardTitle: "DOM BISTRO", endereco:"Condomínio Flor de Lis - Vila",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/bistro.jpeg", contato:"Fone: (86) 9 9587 8491"},
 
@@ -39,6 +41,8 @@ export default class WhereEatScreen extends React.Component {
             {id:48,  cardTitle: "GALERIA COLONIAL CAFÉ E CIA", endereco:"Rua Tertuliano Filho,373- Centro Histórico", img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/galeria_colonial.jpg", contato:"Fone: (86)98139-1266- SALA 05"},
             
             {id:4,  cardTitle: "ATTA COZINHA E BAR",   endereco:"Rua Lauro Cordeiro, 835 – Boa Esperança",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/atta_cozinha_bar.jpg", contato:"Fone: (86) 98108-8416"},
+
+            {id:10,  cardTitle: "CHURRASCARIA O CLEMENTE",   endereco:"Av. Coronel Cordeiro, Centro.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/churrascaria_clemente.jpeg", contato:"Fone: 9 9925 5580/ 9 95042583"},
             
             {id:5,  cardTitle: "CLUBE E CHURRASCARIA RUFINU´S",   endereco:"Barra dos Medeiros – Areia Branca",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: 9 8192 2816 / 9 9967 2536 / 9 9502 5500"},
 
@@ -46,19 +50,19 @@ export default class WhereEatScreen extends React.Component {
            
             {id:1,  cardTitle: "RESTAURANTE E PIZZARIA ESTAÇÃO VILLA",   endereco:" Av. Jose Lourenço Mourão, Vila Operária.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 9431 7681"},
             
-            {id:2,  cardTitle: "RESTAURANTE BOOMERANG - SHOPING MINERVINA",   endereco:"Av. Coronel Cordeiro, 312- Centro.", img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 3271 1648/ 9 9831 1095"},
+            {id:2,  cardTitle: "RESTAURANTE BOOMERANG - SHOPING MINERVINA",   endereco:"Av. Coronel Cordeiro, 312- Centro.", img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 3271 1648/9 99550-5391"},
             
             {id:8,  cardTitle: "CLUBE VIPASSANA",   endereco:"Rua João Alves Pereira, 664",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: 9 9974 6726"},
             
             {id:9,  cardTitle: "GERMANO RESTAURANTE",   endereco:"Tucuns dos Pedro - Zona Rural",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: 9 9547 2175"},
             
-            {id:10,  cardTitle: "CHURRASCARIA O CLEMENTE",   endereco:"Av. Coronel Cordeiro, Centro.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: 9 9925 5580/ 9 95042583"},
+            
             
             {id:12,  cardTitle: "TORNÊRO CHURRASCARIA",   endereco:"AV. José Lourenço Mourão, 767- Vila Operária.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 9406 0668"},
             
             {id:13,  cardTitle: "PIZARRIA E CHURRASCARIA SABOR DA HORA",   endereco:"Av. José Lourenço Mourão, 718 - Centro",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 3271 1378 / 9 9557 8735"},
             
-            {id:14,  cardTitle: "PIZZARIA MELHOR DO TRIGO",   endereco:"Rua José Gomes Filho, 64 – Chapadinha.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 9568 1692 / 9 9967 5034"},
+            {id:14,  cardTitle: "PIZZARIA MELHOR DO TRIGO",   endereco:"Rua José Gomes Filho, 64 – Chapadinha.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"(86) 9 9568 1692 / 9 9967 5034 / 99430-4982 / 9967-5034"},
             
             {id:15,  cardTitle: "QUIOSQUE CAJUEIRO", endereco:"Av. José Lourenço Mourão, Vila Operária.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 9420 4807"},
             
@@ -98,7 +102,7 @@ export default class WhereEatScreen extends React.Component {
             
             {id:35,  cardTitle: "REGIS GRILL", endereco:"Rua Auto Freire, 127 – Chapadinha.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 8115 6290"},
             
-            {id:38,  cardTitle: "CHURRASCARIA AR LIVRE", endereco:"Rua Epifânio Getirana, 192 – Santa Fé.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"(86) 9 9448 3307 / 9 9815 1110"},
+            {id:38,  cardTitle: "CHURRASCARIA AR LIVRE", endereco:"Rua Epifânio Getirana, 192 – Santa Fé.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"(86) 9 9448 3307 / 9 9815 1110 "},
             
             {id:39,  cardTitle: "FACEBAR, PIZARRIA E PASTELARIA", endereco:"AV. José Lourenço Mourão - Vila Operária.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"(86) 9 9466 9022 / 9 9833 7936"},
             

@@ -14,7 +14,7 @@ export default class WhereSleepScreen extends React.Component {
             cardTitle: "POUSADA CASA DO CHEF",
             endereco: "AV. José Lourenço Mourão, 116 – Vila Operária.",
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/casa_do_chef.jpg",
-            contato:"(86) 3271-1872/99576-3163 / 99576-2164 "},
+            contato:"(86) 3271-1872 / 99576-3163 / 99576-2164"},
 
             {id:1,
               cardTitle: "POUSADA LUAR DO SERTÃO",
@@ -29,7 +29,7 @@ export default class WhereSleepScreen extends React.Component {
             contato: "(86) 3271-2679/ (86) 99989-0199"},
             
             {id:3,
-            cardTitle: "OPALA HOTEL",
+            cardTitle: "HOTEL OPALA",
             endereco:"Av. José Lourenço Mourão, 813 – Vila Operária",
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/hotel_opala.jpg",
             contato: "(86) 3271-1160/ 99470-9413"},
@@ -57,15 +57,21 @@ export default class WhereSleepScreen extends React.Component {
             endereco:"Rua Neném Galvão, 55 ",
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/pousadaresidence.jpg",
             contato: "(86) 99431-7681 (whatsapp)"},
+
+            {id: 11,
+            cardTitle:"POUSADA IRMÃOS BACANA",
+            endereco:"Lajinha – Aeroporto",
+            img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
+            contato: "(86) 99458-2578"},
             
             {id: 10,
             cardTitle: "POUSADA RIACHO",
             endereco: "Rua Lauro Cordeiro, 246",
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-            contato: "(86) 99989-3164",},
+            contato: "(86) 99989-3164/ 8123-2220"},
             
             {id: 11,
-            cardTitle:"MOTEL POUSADA IMPERIAL",
+            cardTitle:"POUSADA IMPERIAL",
             endereco:"Povoado Santana",
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
             contato: "fone: (86) 99421 3000",},

@@ -20,7 +20,7 @@ export default class WhereBuyScreen extends React.Component {
             cardTitle: 'HALLEY JÓIAS E RELÓGIOS',
             endereco:  'Mercado do Artesão Box 6',
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/halley_joiais.jpeg",
-            contato:'Fone: 99559 9242/99418 0260. Email: samuelcastro452hotmail.com'},
+            contato:'Fone: 86 99418 0260. Email: samuelcastro452hotmail.com'},
 
             {id: 20,
             cardTitle:'MERCADO DO ARTESÃO',
@@ -60,15 +60,15 @@ export default class WhereBuyScreen extends React.Component {
             
             {id: 18,
             cardTitle:'RARISSIMA OPALA JÓIAS',
-            endereco:'Loja 1 Mercado do Atesão Loja 2 Praça da Bonelle',
+            endereco:'Loja 1 Mercado do Atesão Loja 2 Praça da Bonelle Rua João Benício da Silva, 209',
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-            contato: 'Rua João Benício da Silva, 209 Fone: 99455 9998/ 99436 1149'},
+            contato: 'Fone: 99455 9998/ 99436 1149/ 99977-0770'},
             
             {id: 19,
             cardTitle:'ATELIÊ JÓIA DA TERRA',
             endereco:'Av. Jose Louremço Mourão, 871- Vila Operaria ',
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-            contato:'Fone: 9 9964 2174/ 99402 2506. Email: ateliejoiadaterra@hotmail.com'},
+            contato:'Fone: 9 9964 2174. Email: ateliejoiadaterra@hotmail.com'},
 
             {id:36,  cardTitle: "RANCHO DO DINO", endereco:"Comunidade Caranguejo – Serra dos Matões.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg", contato:"Fone: (86) 9 9900 9825 / 9 8133-8623"},
             
@@ -100,9 +100,9 @@ export default class WhereBuyScreen extends React.Component {
             
             {id: 25,
             cardTitle:'LIVRARIA CRUVIANA',
-            endereco:'Rua Corinto Andrade',
+            endereco:'Rua Corinto Andrade, 1140 - Santa Fé',
             img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-            contato:'1140 - Santa Fé Fone 86 99431 9122'},
+            contato:'Fone 86 99431 9122 '},
             
             {id: 26,
             cardTitle:'TOCA DAS LENDAS - ESPAÇO CULTURA',
@@ -132,13 +132,13 @@ export default class WhereBuyScreen extends React.Component {
               cardTitle: "OPALA JÓIAS CORES DA TERRA",
               endereco:"Rua Tertuliano Brandão filho, 256 centro",
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-              contato: "Fone: 99419 0934/ 99520 0021. Email: opalas_joias@hotmail.com"},
+              contato: "Fone: 99419 0934 Email: opalas_joias@hotmail.com"},
               
               {id:6,
               cardTitle:"JÓIAS E GEMAS",
               endereco:"Rua Tertuliano Filho, Centro",
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-              contato: "99402 6776/3271 2770/ 9 9956 4644"},
+              contato: "99402 6776"},
               
               {id:7,
               cardTitle: "OI.TI JÓIAS ARTESANAIS",
@@ -150,7 +150,7 @@ export default class WhereBuyScreen extends React.Component {
               cardTitle:"AL & JÓIAS",
               endereco:"Rua Agostinho Pinheiro, 388- Centro, Praça da Matriz",
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-              contato: "Fone: 9 9465 1135/ 9 8110 9652/ 99949-2746. Email: www.aljoias.net.br"},
+              contato: "Fone: 9 9465 1135/3671-1771. Email: www.aljoias.net.br"},
               
               {id: 9,
               cardTitle: "DESIGN JÓIAS",
@@ -174,13 +174,13 @@ export default class WhereBuyScreen extends React.Component {
               cardTitle:"ESTILOS JÓIAS ",
               endereco:"Rua Domingos da silva mourão, 487, Centro",
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-              contato:"Fone: 99484 9362/ 99862 2553.  Email: theresteixeira2hotmail.com"},
+              contato:"Fone: 99484 9362/ 999423-2952.  Email: theresteixeira2hotmail.com"},
               
               {id: 13,
               cardTitle:'P2 JÓIAS',
               endereco:'Rua Domingos Mourão Filho, 483, Centro',
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/padrao.jpeg",
-              contato: 'Fone: 99509 1520/ 99942 4437.  '},
+              contato: 'Fone: 99509 1520.'},
               
               {id: 14, 
               cardTitle:'AR´TS PEDRAS',
