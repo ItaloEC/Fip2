@@ -18,7 +18,6 @@ export default class Card_services extends React.PureComponent {
 
 const styles = StyleSheet.create({
     card: {
-        height:210,
         backgroundColor: '#e8e8e8',
         marginTop: 20,
         marginLeft: '2%',
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
         elevation: 2
     },
     cardText:{
-        padding: 2,
+        padding: 5,
         fontSize: 15,
         color: '#000',
         marginLeft: '2%'

@@ -22,7 +22,8 @@ export default class PracaJazz extends Component {
             data: [
                 {
                     id:1,
-                    cardTitle: "Praça do jazz - DOMINGO 21/06/2019",
+                    cardTitle: "Praça do jazz - SEXTA-FEIRA 21/06/2019",
+                    subtitle: "Praça Dep. Milton Brandão (Recanto)",
                     atracao1:"> 17h00 - Wellington Torres",
                     atracao2:"> 19h00 Lula Galvão Trio,\n com Di Stefano & Paulo Dantas",
                     atracao3:"> 20h00 Jam \n& convidados com  BMW2"
@@ -30,6 +31,7 @@ export default class PracaJazz extends Component {
                 {
                     id:2,
                     cardTitle: "Praça do jazz - SÁBADO  22/06/2019",
+                    subtitle: "Praça Dep. Milton Brandão (Recanto)",
                     atracao1:"> 17h00 Club do jazz",
                     atracao2:"> 19h00 Maurício Einhorn \n& Natan Gomes com \n participação de Gustavo Baião",
                     atracao3:"> 20h00 Jam \n& convidados com Ivan Silva"

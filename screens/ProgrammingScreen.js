@@ -35,24 +35,24 @@ export default class ProgrammingScreen extends Component {
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("principal")}>
                             <Image source={icon_palcoopala} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Palco da Opala</Text>
+                            <Text style={styles.textoBotao}>Palco Opala</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("gritador")}>
                             <Image source={icon_palcobluess} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Palco Blues</Text>
+                            <Text style={styles.textoBotao}>Palco Regional & Blues</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("pracajazz")}>
                             <Image source={icon_palcojazz} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Palco do Jazz</Text>
+                            <Text style={styles.textoBotao}>Palco Jazz</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.botoesRole}
                           onPress={() => this.props.navigation.navigate("tablado")}>
                             <Image source={icon_palcotablado} style={styles.icons}></Image>
-                            <Text style={styles.textoBotao}>Palco do Tablado</Text>
+                            <Text style={styles.textoBotao}>Tablado</Text>
                         </TouchableOpacity>
                      </View>
             </ImageBackground>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
 
     },
     textoBotao: {
-        fontSize: 16,
+        fontSize: 12,
         color: '#052702',
         fontWeight: 'bold',
         textAlign: 'center',
