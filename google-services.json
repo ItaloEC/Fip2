@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "557776165126",
+    "firebase_url": "https://fip2-241613.firebaseio.com",
+    "project_id": "fip2-241613",
+    "storage_bucket": "fip2-241613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557776165126:android:6fff0e500c99d586",
+        "android_client_info": {
+          "package_name": "com.light.fip2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557776165126-pqqt5h1gqsm0jbfgp5rr941qspk97fjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnuoNQqWQIct0CtwGhddAFSCNvnT81ZRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557776165126-pqqt5h1gqsm0jbfgp5rr941qspk97fjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
