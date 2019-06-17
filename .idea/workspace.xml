@@ -2,57 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872f6ce5-e8dc-4eed-93f5-5238210c5e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/icons/icon_rotas_turisticas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/icon_sebrae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/desafioopalas.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rotasturisticas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sebrae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/turismo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Cards/Card_Opala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/icon_feira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Cards/Card_artesao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Cards/Card_sebrae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/ArtesaoScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/SebraeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo-shared/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo-shared/assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgroud.orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/backgroud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/desafio_matoes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/desafio_matoes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/desafio_opala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/desafio_opala.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ecomatoes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ecomatoes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_aplicativo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_aplicativo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_desafiodaopala.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_desafiodaopala.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_desafioserradosmatoes.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_desafioserradosmatoes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_ecomatoes.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_ecomatoes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_informacoes.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_informacoes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_mapa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_mapa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_noticias.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_noticias.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_ondecomer.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_ondecomer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_ondecomprar.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_ondecomprar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_ondeficar.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_ondeficar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_palcobluess.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_palcobluess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_palcojazz.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_palcojazz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_palcoopala.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_palcoopala.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_palcotablado.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_palcotablado.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_patrocinadores.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_patrocinadores.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_programacao.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_programacao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/icon_servicos.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_servicos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon_sebrae.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_sebrae.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icons/icon_turismo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon_turismo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Desafio_das_Opalas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opalas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/opalas.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/splash2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/splash2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mapa1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mapa1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mapa2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mapa2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/noticias.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/noticias.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/whereBuyBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/whereBuyBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/whereEatBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/whereEatBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/whereSleepBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/whereSleepBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cards/Card_programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards/Card_programming.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cards/Card_programming_palcos.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards/Card_programming_palcos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/desafioopalas.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/desafioopalas.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rotasturisticas.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rotasturisticas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sebrae.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sebrae.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/turismo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/turismo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/InformationScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TouristRoutesScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ServicesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ServicesScreen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,22 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Cards/Card_Opala.js">
+        <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,15 +108,21 @@
         <option value="$PROJECT_DIR$/screens/ProgrammingScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_services.js" />
         <option value="$PROJECT_DIR$/screens/SponsorsScreen.js" />
-        <option value="$PROJECT_DIR$/screens/ServicesScreen.js" />
         <option value="$PROJECT_DIR$/screens/InformationScreen.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/screens/TouristRoutesScreen.js" />
-        <option value="$PROJECT_DIR$/screens/HomeScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_programming.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_programming_palcos.js" />
         <option value="$PROJECT_DIR$/screens/OpalasChallengeScreen.js" />
         <option value="$PROJECT_DIR$/components/Cards/Card_Opala.js" />
+        <option value="$PROJECT_DIR$/screens/ChooseSebraeScreen.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/screens/ArtesaoScreen.js" />
+        <option value="$PROJECT_DIR$/screens/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/components/Cards/Card_Sebrae.js" />
+        <option value="$PROJECT_DIR$/components/Cards/Card_artesao.js" />
+        <option value="$PROJECT_DIR$/screens/SebraeScreen.js" />
+        <option value="$PROJECT_DIR$/components/Cards/Card_sebrae.js" />
+        <option value="$PROJECT_DIR$/screens/ServicesScreen.js" />
       </list>
     </option>
   </component>
@@ -169,9 +133,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-392" />
-    <option name="y" value="105" />
-    <option name="width" value="1024" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -193,18 +156,7 @@
             <path>
               <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fip2" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fip2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fip2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fip2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +168,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Cards" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -224,15 +176,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/components/Cards" />
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/icons" />
       <recent name="$PROJECT_DIR$/screens" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/patrocinadores" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/screens/component/Card" />
@@ -287,18 +239,21 @@
       <workItem from="1560473257398" duration="6498000" />
       <workItem from="1560543377145" duration="8555000" />
       <workItem from="1560632015900" duration="3693000" />
-      <workItem from="1560650828107" duration="5306000" />
+      <workItem from="1560650828107" duration="5689000" />
+      <workItem from="1560717876621" duration="2762000" />
+      <workItem from="1560728722375" duration="916000" />
+      <workItem from="1560730467699" duration="6937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125906000" />
+    <option name="totallyTimeSpent" value="136904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19657484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19657484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -342,76 +297,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/icons/taage_icon_patrocinadores.png" />
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_challenge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_sponsors_and_partners.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/MapScreen" />
-    <entry file="file://$PROJECT_DIR$/components/Map/MapaDesenho.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Map/MapaRuas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3915">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="147" column="10" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2427#2468#0" expanded="true" />
-            <element signature="e#2895#2936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/Splash2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_where_eat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Cards/Card_information.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -474,9 +359,7 @@
     <entry file="file://$PROJECT_DIR$/assets/mapa2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ze.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ze.png" />
     <entry file="file://$PROJECT_DIR$/assets/icons/icon_aplicativo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -503,9 +386,6 @@
     <entry file="file://$PROJECT_DIR$/assets/noticias.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icons/icon_rotas_turisticas.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/opalas.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -514,26 +394,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/turismo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sebrae.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/TouristRoutesScreen.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,16 +407,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/rotasturisticas.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="113" column="70" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/WhereSleepScreen.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,26 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ChooseChallengeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ChallengeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Cards/Card_programming_palcos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -627,15 +457,10 @@
     <entry file="file://$PROJECT_DIR$/assets/background_challenges.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/background_challenges.orig.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/desafio_opala.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/Desafio_das_Opalas.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/Desafio_das_Opalas.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/images/icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -649,10 +474,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/desafio_matoes.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_Opala.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ChallengeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ChooseChallengeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/background_challenges.orig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sebrae.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon_servicos.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon_rotas_turisticas.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon_informacoes.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon_turismo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/NewsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ArtesaoScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1162">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_challenge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_artesao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="189" selection-start-line="21" selection-start-column="179" selection-end-line="21" selection-end-column="189" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/Cards/Card_services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" selection-start-line="19" selection-end-line="57" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -661,30 +603,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Cards/Card_news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="21" selection-start-line="21" selection-end-line="77" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="78" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/desafio_matoes.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/OpalasChallengeScreen.js">
+    <entry file="file://$PROJECT_DIR$/screens/SebraeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="159">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Cards/Card_Opala.js">
+    <entry file="file://$PROJECT_DIR$/components/Cards/Card_sebrae.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ServicesScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

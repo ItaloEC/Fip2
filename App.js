@@ -18,6 +18,8 @@ import ChooseChallengeScreen from "./screens/ChooseChallengeScreen";
 import OpalaChallengeScreen from "./screens/OpalasChallengeScreen";
 import ChallengeScreen from "./screens/ChallengeScreen";
 import Splash2 from "./screens/Splash2";
+import SebraeScreen from "./screens/SebraeScreen";
+import ArtesaoScreen from "./screens/ArtesaoScreen";
 
 const AppNavigator = createStackNavigator({
 
@@ -88,6 +90,12 @@ const AppNavigator = createStackNavigator({
     },
     'ChallengeScreen' : {
         screen : ChallengeScreen
+    },
+    'SebraeScreen' : {
+        screen : SebraeScreen
+    },
+    'ArtesaoScreen' : {
+        screen : ArtesaoScreen
     }
 
 });
