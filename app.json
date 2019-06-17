@@ -27,7 +27,8 @@
       "bundleIdentifier": "com.light.fipii"
     },
     "android": {
-      "package": "com.light.fip2"
+      "package": "com.light.fip2",
+      "googleServicesFile": "./google-services.json"
     },
     "description": ""
   },
