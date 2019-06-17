@@ -15,6 +15,7 @@ import noticias from '../assets/icons/icon_noticias.png';
 import ecomatoes from '../assets/icons/icon_ecomatoes.png';
 import patrocinadores from'../assets/icons/icon_patrocinadores.png';
 import sebrae from'../assets/icons/icon_sebrae.png';
+import feira from "../assets/icons/icon_feira.png";
 
 
 export default class HomeScreen extends Component {
@@ -115,11 +116,14 @@ export default class HomeScreen extends Component {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerBotoes}>
-                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("Sponsors")}>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("SebraeScreen")}>
                             <Image source={sebrae} style={styles.icons}></Image>
                             <Text style={styles.textoBotao}>Sebrae</Text>
                         </TouchableOpacity>
-                        <View style={styles.botoesRole}></View>
+                        <TouchableOpacity style={styles.botoesRole} onPress={() => this.props.navigation.navigate("ArtesaoScreen")}>
+                            <Image source={feira} style={styles.icons}></Image>
+                            <Text style={styles.textoBotao}>Mercado do Artesão</Text>
+                        </TouchableOpacity>
                     </View>
                 </ScrollView>
             </ImageBackground>
@@ -137,7 +141,6 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     viewDeCima: {
-        // backgroundColor: '#008000',
         height: '25%',
     },
     botoesRole: {

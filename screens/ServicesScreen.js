@@ -22,9 +22,10 @@ export default class ServicesScreen extends Component {
                 {id:9,  cardTitle: "OFICINA MECÂNICA - ZE CLAUDIO",   endereco:"Rua Tertuliano Brandão Filho, Centro", telefone:"(86) 99983 3028"},
                 {id:10,  cardTitle: "BORRACHARIA DO MEDEIROS",   endereco:"Rua Irmãos Pereira, Centro", telefone:"(86) 99462 8683"},
                 {id:11,  cardTitle: "Delegacia de Polícia",   endereco:"Av. José Lourenço Mourão, 100", telefone:"(86) 3271 2575"},
-                {id:12,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""},
-                {id:13,  cardTitle: "ACONTUR - Associação de Guias de Turismo e Condutores de Visitantes de Pedro II.",endereco:"Localizado na Praça da Feira do Artesanato - Centro Histórico. ", telefone:"Tel: (86) 99418 0785  99992 2791"},
-                {id:14,  cardTitle: "CHAVEIRO NUNES", endereco:"MERCADO DO ARTESÃO, BOX 36, PEDRO II - PI", telefone:"86 99539-0075 86 98181-8241\n chaveironunes10@gmail.com"}
+                {id:12,  cardTitle: "2° Cia/12° Batalhão de Polícia Militar",   endereco:"Conjunto Joaquim Braga  Rua C Q- 06", telefone:"(86) 9 9595 6965"},
+                {id:13,  cardTitle: "Superintendência de trânsito municipal (STRANS)",   endereco:"Terminal rodoviário, Av Loureço (box 02)", telefone:""},
+                {id:14,  cardTitle: "ACONTUR - Associação de Guias de Turismo e Condutores de Visitantes de Pedro II.",endereco:"Localizado na Praça da Feira do Artesanato - Centro Histórico. ", telefone:"Tel: (86) 99418 0785  99992 2791"},
+                {id:15,  cardTitle: "CHAVEIRO NUNES", endereco:"MERCADO DO ARTESÃO, BOX 36, PEDRO II - PI", telefone:"86 99539-0075 86 98181-8241\n chaveironunes10@gmail.com"}
             ]
 
         }
