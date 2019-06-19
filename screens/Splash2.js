@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, ImageBackground } from 'react-native'
+import { Text, View, ImageBackground, TouchableOpacity } from 'react-native'
 const tela =  require('../assets/images/splash2.jpg');
 // import FirstScreen from './FirstScreen';
 
@@ -22,7 +22,12 @@ export default class Splash2 extends Component {
       <ImageBackground
           source={tela}
           style={{flex: 1}}
-      />
+      >
+        <TouchableOpacity
+          style={{flex: 1}}
+          onPress={() => {this.props.navigation.navigate('HomeScreen')}}
+        />
+      </ImageBackground>
     )
   }
 }

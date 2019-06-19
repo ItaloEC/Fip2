@@ -1,8 +1,11 @@
 import React, {Component} from "react";
-import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View} from "react-native";
+import {ImageBackground, ActivityIndicator, FlatList, StyleSheet, View, Image, Text} from "react-native";
 import Card_services from '../components/Cards/Card_artesao';
 import {width, height} from '../constants/Layout'
 import background from '../assets/backgroud.png';
+import feira from '../assets/images/feira.jpeg';
+import restaurante from '../assets/images/restaurante.jpeg';
+import { ScrollView } from "react-native-gesture-handler";
 
 
 export default class ArtesaoScreen extends Component {
@@ -10,7 +13,7 @@ export default class ArtesaoScreen extends Component {
     constructor(){
         super();
         this.state = {
-            data: [
+            dataFeira: [
                 {id:1,  cardTitle: "CELIA ARTESÃ- Box 04", subtitle: "SHOPPING DO ARTESÃO- TÉRREO",   endereco:"Org. Nonato e Celia"},
                 {id:2,  cardTitle: "JOALHERIA HALLEY JOIAS E RELÓGIOS- Box 06", subtitle: "SHOPPING DO ARTESÃO- TÉRREO", endereco:"Org. Fernanda"},
                 {id:3,  cardTitle: "ASSOCIAÇÃO TAPERA DOS VITAL- Box 07", subtitle: "MERCADO DO ARTESÃO- TÉRREO", endereco:"Org. Associação Tapera dos Vital"},
@@ -41,6 +44,8 @@ export default class ArtesaoScreen extends Component {
                 {id:28,  cardTitle: "G.G ARTESANATO- Box 42", subtitle: "MERCADO DO ARTESÃO- TÉRREO", endereco:"Org. Deise"},
                 {id:29,  cardTitle: "CERAMICA MARIA BONITA- Box 48", subtitle: "MERCADO DO ARTESÃO- TÉRREO", endereco:"Org. Ulissis"},
                 {id:30,  cardTitle: "MAMI ARTESANATO- Box 49", subtitle: "MERCADO DO ARTESÃO- TÉRREO", endereco:"Org. Maria Inês"},
+            ],
+            dataRestaurantes:[
                 {id:31,  cardTitle: "Restaurante 100%", subtitle: "MERCADO DO ARTESÃO – PRAÇA DE ALIMENTAÇÃO", endereco:"Elisandra Costa Lima ( Lia)"},
                 {id:32,  cardTitle: "Tempero Novo", subtitle: "MERCADO DO ARTESÃO – PRAÇA DE ALIMENTAÇÃO", endereco:"Francisco Gilberto da Silva ( Gilberto)"},
                 {id:33,  cardTitle: "Primeira Mesa", subtitle: "MERCADO DO ARTESÃO – PRAÇA DE ALIMENTAÇÃO", endereco:"Etevaldo dos Santos ( Etevaldo)"},
@@ -61,23 +66,41 @@ export default class ArtesaoScreen extends Component {
 
 
     render() {
-        if(this.state.data.length === 0) {
-            return(
-                <View style={styles.loader}>
-                    <ActivityIndicator/>
-                </View>
-            );
-        }
+        // if(this.state.data.length === 0) {
+        //     return(
+        //         <View style={styles.loader}>
+        //             <ActivityIndicator/>
+        //         </View>
+        //     );
+        // }
         return (
             <ImageBackground style={styles.container} source={background}>
                 <View style={styles.viewDeCima}></View>
                 <View style={styles.container}>
+                <ScrollView style={styles.scroll} showsVerticalScrollIndicator={false} >
+                <Image
+                    source={feira}
+                    style={styles.imagem}
+                />
+                <Text style={{fontSize: 40, textAlign: 'center', fontWeight: 'bold', color: "#052702"}}>Feira:</Text>
                     <FlatList
                         style={styles.flatList}
-                        data={this.state.data}
+                        data={this.state.dataFeira}
                         keyExtractor={(item, index) => index.toString()}
                         renderItem={({item}) => <Card_services item={item}/>}
                     />
+                <Image
+                    source={restaurante}
+                    style={styles.imagem}
+                />
+                <Text  style={{fontSize: 40, textAlign: 'center', fontWeight: 'bold', color: "#052702"}}>Restaurantes:</Text>
+                    <FlatList
+                        style={styles.flatList}
+                        data={this.state.dataRestaurantes}
+                        keyExtractor={(item, index) => index.toString()}
+                        renderItem={({item}) => <Card_services item={item}/>}
+                    />
+                  </ScrollView>  
                 </View>
             </ImageBackground>
         );
@@ -97,6 +120,11 @@ const styles = StyleSheet.create({
     viewDeCima: {
         height: '25%',
     },
+    scroll: {
+        height: '100%',
+        width: width,
+        position: 'absolute'
+    },
     loader: {
         flex:1,
         alignItems: 'center',
@@ -104,6 +132,12 @@ const styles = StyleSheet.create({
     },
     flatList:{
         paddingBottom: 10,
+    },
+    imagem: {
+        height: 250,
+        width: '100%',
+        resizeMode: 'contain',
+        marginLeft: 5,
     }
 
 });
