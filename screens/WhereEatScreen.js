@@ -28,7 +28,7 @@ export default class WhereEatScreen extends React.Component {
 
             {id:26,  cardTitle: "BECO DA PICANHA", endereco:"Rua Travessa João Mendes, 226 – Centro",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/becodapicanha.jpeg", contato:"Fone: (86) 9 9816 4487/ 99551-1130"},
 
-            {id:28,  cardTitle: "DOM BISTRO", endereco:"Condomínio Flor de Lis - Vila",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/bistro.jpeg", contato:"Fone: (86) 9 9587 8491"},
+            {id:28,  cardTitle: "DOM BISTRO", endereco:"Condomínio Vila das Flores",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/bistro.jpeg", contato:"Fone: (86) 9 9587 8491"},
 
             {id:40,  cardTitle: "BALNEÁRIO DAS SERRAS", endereco:"Povoado Carnaúbas - Serra dos Matões.",img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/balneario.jpeg", contato:"Fone: (86) 98164-2616(whatsapp)"},
 
