@@ -28,7 +28,7 @@
     },
     "android": {
       "package": "com.light.fip2",
-      "versionCode": 2, 
+      "versionCode": 4, 
       "googleServicesFile": "./google-services.json"
     },
     "description": ""

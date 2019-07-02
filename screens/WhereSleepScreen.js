@@ -20,7 +20,7 @@ export default class WhereSleepScreen extends React.Component {
               cardTitle: "POUSADA LUAR DO SERTÃO",
               endereco: "RUA SORIANO PEDRO SOUSA, 344 - BAIRRO SABOIÁ",
               img:"https://lightgroup.com.br/luminus/assets/images/estabelecimentos/luar_do_sertao.jpg",
-              contato:"(86) 3271-1872/99576-3163 / 99576-2164 "},
+              contato:"(86) 995655670/ 994475778"},
             
             {id:2,
             cardTitle: "MARZUK FLAT HOTEL",
