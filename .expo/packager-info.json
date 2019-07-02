@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 23425,
+  "expoServerNgrokUrl": "https://xx-fbq.light-dev.fip2.exp.direct",
+  "packagerNgrokUrl": "https://packager.xx-fbq.light-dev.fip2.exp.direct",
+  "ngrokPid": 23472,
   "webpackServerPort": null
 }
